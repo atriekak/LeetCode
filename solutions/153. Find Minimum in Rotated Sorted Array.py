@@ -9,7 +9,7 @@ class Solution:
                 (mid == len(nums) - 1 or nums[mid] < nums[mid+1])):
                 return nums[mid]
             elif nums[mid] < nums[r]:           #move towards the unsorted side
-                r = mid - 1                     #default left in case perfectly sorted
+                r = mid - 1                     #defaults left in case its perfectly sorted
             else:
                 l = mid + 1
         return -1
