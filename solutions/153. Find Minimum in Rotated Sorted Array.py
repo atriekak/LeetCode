@@ -4,12 +4,14 @@ class Solution:
         r = len(nums) - 1
         
         while l <= r:
+            if nums[l] < nums[r]:               #perfectly sorted array
+                return nums[l]
             mid = l + (r - l) // 2
             if ((mid == 0 or nums[mid] < nums[mid-1]) and 
                 (mid == len(nums) - 1 or nums[mid] < nums[mid+1])):
                 return nums[mid]
-            elif nums[mid] < nums[r]:           #move towards the unsorted side
-                r = mid - 1                     #defaults left in case its perfectly sorted
+            elif nums[l] > nums[mid]:           #only the unsorted side can have min/max
+                r = mid - 1                      #move towards it
             else:
                 l = mid + 1
         return -1
