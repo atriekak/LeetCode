@@ -11,7 +11,7 @@ class Solution:
                 (mid == len(nums) - 1 or nums[mid] < nums[mid+1])):
                 return nums[mid]
             elif nums[l] > nums[mid]:           #only the unsorted side can have min/max
-                r = mid - 1                      #move towards it
+                r = mid - 1                     #move towards it
             else:
                 l = mid + 1
         return -1
