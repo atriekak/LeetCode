@@ -28,10 +28,9 @@ class MyHashMap:
         """
         value will always be non-negative.
         """
-        print(key)
         i = self.index(key)
         if not self.nodes[i]:
-            self.nodes[i] = Node(-1, -1)
+            self.nodes[i] = Node(-1, -1)                #Dummy node for convenience
         prev = self.find(self.nodes[i], key)
         if not prev.next:
             prev.next = Node(key, value)
@@ -41,6 +40,3 @@ class MyHashMap:
             
     def get(self, key: int) -> int:
         """
-        Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key
-        """
-        i = self.index(key)
