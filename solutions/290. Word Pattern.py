@@ -3,6 +3,7 @@ class Solution:
         #Time Complexity: O(n)
         #Space Complexity: O(1)
         #where, n equals min(pattern.length, s.length)
+        
         s_list = s.split()
         
         if len(pattern) != len(s_list):
