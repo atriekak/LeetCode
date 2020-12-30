@@ -4,17 +4,19 @@ class Solution:
         #Space Complexity: O(n)
         #where, n is the length of nums
         
-        total = 0
+        running_sum = 0
         max_len = 0
         
+        #stores running_sum: index of first occurence
+        #initialized to convey balance sum at start
         hash_map = {0: -1}
         
         for i in range(len(nums)):
-            total += (1 if nums[i] == 1 else -1)
+            running_sum += (1 if nums[i] == 1 else -1)
             
-            if total in hash_map:
-                max_len = max(max_len, i - hash_map[total])
+            if running_sum in hash_map:
+                max_len = max(max_len, i - hash_map[running_sum])
             else:
-                hash_map[total] = i
+                hash_map[running_sum] = i
                 
         return max_len
