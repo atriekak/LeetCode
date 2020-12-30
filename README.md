@@ -12,5 +12,6 @@
 |205|[ Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Python3](./solutions/205.%20Isomorphic%20Strings.py)|36 ms|
 |232|[ Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Python3](./solutions/232.%20Implement%20Queue%20using%20Stacks.py)|24 ms|
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Python3](./solutions/290.%20Word%20Pattern.py)|24 ms|
+|560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Python3](./solutions/560.%20Subarray%20Sum%20Equals%20K.py)|248 ms|
 |705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[Python3](./solutions/705.%20Design%20HashSet.py)|220 ms|
 |706|[ Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Python3](./solutions/706.%20Design%20HashMap.py)|248 ms|
