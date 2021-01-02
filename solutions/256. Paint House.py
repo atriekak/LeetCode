@@ -1,5 +1,11 @@
 class Solution:
     def minCost(self, costs: List[List[int]]) -> int:
+        #Time Complexity: O(n) 
+        #Space Complexity: O(1)
+        #where, n is the number of houses
+        #Note: could have also used a length 3 list if mutating the original matrix
+        #was not allowed
+        #Does not change the space complexity in this case
         
         if len(costs) == 0:
             return 0
