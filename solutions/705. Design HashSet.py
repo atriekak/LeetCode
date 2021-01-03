@@ -4,11 +4,18 @@ class MyHashSet:
         """
         Initialize your data structure here.
         """
+        #Time Complexity: O(1)
+        #Space Complexity: O(n)
+        #where, n is the range of numbers
+        
         self.numBuckets = 1000
         self.sizeBucket = 1001
         self.Buckets = [None] * self.numBuckets
 ​
     def add(self, key: int) -> None:
+        #Time Complexity: O(1)
+        #Space Complexity: O(1)
+        
         bucket = key % self.numBuckets                          #hashing function 1
         item = (key // self.numBuckets) % self.sizeBucket       #hashing function 2
         if not self.Buckets[bucket]:
@@ -17,6 +24,9 @@ class MyHashSet:
         return    
 ​
     def remove(self, key: int) -> None:
+        #Time Complexity: O(1)
+        #Space Complexity: O(1)
+        
         bucket = key % self.numBuckets
         item = (key // self.numBuckets) % self.sizeBucket
         if not self.Buckets[bucket]:
@@ -26,6 +36,9 @@ class MyHashSet:
             return
         
     def contains(self, key: int) -> bool:
+        #Time Complexity: O(1)
+        #Space Complexity: O(1)
+        
         """
         Returns true if this set contains the specified element
         """
