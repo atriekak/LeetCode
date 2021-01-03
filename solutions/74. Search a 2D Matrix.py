@@ -1,5 +1,8 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+        #Time Complexity: O(log (m*n))
+        #Space Compllexity: O(1)
+        
         m = len(matrix)
         if m == 0:
             return False
