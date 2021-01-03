@@ -8,7 +8,7 @@
 |49|[ Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Python3](./solutions/49.%20Group%20Anagrams.py)|100 ms|
 |74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Python3](./solutions/74.%20Search%20a%202D%20Matrix.py)|40 ms|
 |153|[ Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Python3](./solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.py)|36 ms|
-|155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[Python3](./solutions/155.%20Min%20Stack.py)|52 ms|
+|155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[Python3](./solutions/155.%20Min%20Stack.py)|56 ms|
 |162|[ Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Python3](./solutions/162.%20Find%20Peak%20Element.py)|40 ms|
 |198|[ House Robber](https://leetcode.com/problems/house-robber/)|[Python3](./solutions/198.%20House%20Robber.py)|32 ms|
 |205|[ Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Python3](./solutions/205.%20Isomorphic%20Strings.py)|36 ms|
