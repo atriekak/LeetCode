@@ -1,5 +1,8 @@
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
+        #Time Complexity: O(log nums)
+        #Space Compllexity: O(1)
+        
         l1 = l2 = 0
         r1 = r2 = len(nums)-1
         
