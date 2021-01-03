@@ -1,5 +1,8 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
+        #Time Complexity: O(log nums)
+        #Space Compllexity: O(1)
+        
         l = 0
         r = len(nums) - 1
         
