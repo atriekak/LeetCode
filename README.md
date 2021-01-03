@@ -22,6 +22,6 @@
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Python3](./solutions/560.%20Subarray%20Sum%20Equals%20K.py)|244 ms|
 |702|[ Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Python3](./solutions/702.%20Search%20in%20a%20Sorted%20Array%20of%20Unknown%20Size.py)|32 ms|
 |705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[Python3](./solutions/705.%20Design%20HashSet.py)|224 ms|
-|706|[ Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Python3](./solutions/706.%20Design%20HashMap.py)|248 ms|
+|706|[ Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Python3](./solutions/706.%20Design%20HashMap.py)|232 ms|
 |740|[ Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[Python3](./solutions/740.%20Delete%20and%20Earn.py)|56 ms|
 |931|[ Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[Python3](./solutions/931.%20Minimum%20Falling%20Path%20Sum.py)|108 ms|
