@@ -9,6 +9,7 @@
 |153|[ Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Python3](./solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.py)|32 ms|
 |155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[Python3](./solutions/155.%20Min%20Stack.py)|52 ms|
 |162|[ Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Python3](./solutions/162.%20Find%20Peak%20Element.py)|40 ms|
+|198|[ House Robber](https://leetcode.com/problems/house-robber/)|[Python3](./solutions/198.%20House%20Robber.py)|32 ms|
 |205|[ Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Python3](./solutions/205.%20Isomorphic%20Strings.py)|36 ms|
 |232|[ Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Python3](./solutions/232.%20Implement%20Queue%20using%20Stacks.py)|24 ms|
 |256|[ Paint House](https://leetcode.com/problems/paint-house/)|[Python3](./solutions/256.%20Paint%20House.py)|52 ms|
