@@ -12,7 +12,7 @@ class MyQueue:
         Push element x to the back of queue.
         """
         #Time Complexity: O(1)
-        #Space Compllexity: O(1)
+        #Space Complexity: O(1)
         
         self.inStack.append(x)
         return
@@ -22,7 +22,7 @@ class MyQueue:
         Removes the element from in front of queue and returns that element.
         """
         #Time Complexity: O(1)
-        #Space Compllexity: O(1)
+        #Space Complexity: O(1)
         
         self.peek()
         return self.outStack.pop()
@@ -32,7 +32,7 @@ class MyQueue:
         Get the front element.
         """
         #Time Complexity: O(1)
-        #Space Compllexity: O(1)
+        #Space Complexity: O(1)
         
         if not self.outStack:
             while self.inStack:
@@ -44,7 +44,7 @@ class MyQueue:
         Returns whether the queue is empty.
         """
         #Time Complexity: O(1)
-        #Space Compllexity: O(1)
+        #Space Complexity: O(1)
         
         return len(self.inStack) == 0 and len(self.outStack) == 0
 ​
