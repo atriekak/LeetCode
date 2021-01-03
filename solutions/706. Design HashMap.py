@@ -9,6 +9,8 @@ class MyHashMap:
         """
         Initialize your data structure here.
         """
+        #Time Complexity: O(1) // because the max size of a linked list can be 100
+        
         self.szNodes = 10000
         self.nodes = [None] * self.szNodes
         
@@ -40,3 +42,9 @@ class MyHashMap:
             
     def get(self, key: int) -> int:
         """
+        Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key
+        """
+        i = self.index(key)
+        if not self.nodes[i]:
+            return -1
+        prev = self.find(self.nodes[i], key)
