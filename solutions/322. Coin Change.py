@@ -1,7 +1,7 @@
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         #Time Complexity: O(amount * coins.length) 
-        #Space Complexity: O(amount)
+        #Space Complexity: O(amount * coins.length)
         
         dp = [[float('inf') for a in range(amount + 1)] for c in range(len(coins) + 1)]
         dp[0][0] = 0
