@@ -1,7 +1,7 @@
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:
         #Time Complexity: O(amount * coins.length) 
-        #Space Complexity: O(amount)
+        #Space Complexity: O(amount * coins.length)
         
         dp = [[0 for a in range(amount + 1)] for c in range(len(coins) + 1)]
         dp[0][0] = 1
