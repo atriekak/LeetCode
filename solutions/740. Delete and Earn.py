@@ -1,7 +1,7 @@
 class Solution:
     def deleteAndEarn(self, nums: List[int]) -> int:
         #Time Complexity: O(max(nums, max(nums))) 
-        #Space Complexity: O(nums)
+        #Space Complexity: O(max(nums))
         
         if len(nums) == 0:
             return 0
