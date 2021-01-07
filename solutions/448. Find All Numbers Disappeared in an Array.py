@@ -8,4 +8,4 @@ class Solution:
             idx = abs(num) - 1
             nums[idx] = - (abs(nums[idx]))
             
-        return [i+1 for i in range(len(nums)) if not nums[i] < 0]
+        return [i+1 for i in range(len(nums)) if nums[i] > 0]
