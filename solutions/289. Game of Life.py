@@ -13,10 +13,12 @@ class Solution:
         for i in range(m):
             for j in range(n):
                 val = self.lifeValue(board, i, j, m, n)
-                #val = sum(abs(list[max(0,i-1):min(m,i+1)][max(0,j-1):min(n,j+1)])) - list[i][j]
+                
                 #rules 1 and 3
                 if board[i][j] == 1 and (val < 2 or val > 3):
                     board[i][j] = 2
+                
+                #rule 4
                 elif board[i][j] == 0 and (val == 3):
                     board[i][j] = 3
         
