@@ -5,7 +5,7 @@ class Solution:
         #where, n is the size of nums
         
         for num in nums:
-            abs_num = abs(num)
-            nums[abs_num - 1] = - (abs(nums[abs_num - 1]))
+            idx = abs(num) - 1
+            nums[idx] = - (abs(nums[idx]))
             
         return [i+1 for i in range(len(nums)) if not nums[i] < 0]
