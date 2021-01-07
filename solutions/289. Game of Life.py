@@ -29,6 +29,8 @@ class Solution:
                 elif board[i][j] == 3:
                     board[i][j] = 1
                     
+        return
+                    
     def lifeValue(self, board, i, j, m, n):
         dirs = [[0, -1], [0, 1], [-1, 0], [1, 0], [-1, -1], [-1, 1], [1, -1], [1, 1]]
         val = 0
