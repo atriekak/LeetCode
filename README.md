@@ -16,6 +16,7 @@
 |232|[ Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Python3](./solutions/232.%20Implement%20Queue%20using%20Stacks.py)|20 ms|
 |238|[ Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Python3](./solutions/238.%20Product%20of%20Array%20Except%20Self.py)|212 ms|
 |256|[ Paint House](https://leetcode.com/problems/paint-house/)|[Python3](./solutions/256.%20Paint%20House.py)|52 ms|
+|289|[ Game of Life](https://leetcode.com/problems/game-of-life/)|[Python3](./solutions/289.%20Game%20of%20Life.py)|28 ms|
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Python3](./solutions/290.%20Word%20Pattern.py)|24 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Python3](./solutions/322.%20Coin%20Change.py)|2720 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|32 ms|
