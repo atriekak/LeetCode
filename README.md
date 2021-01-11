@@ -32,7 +32,7 @@
 |498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Python3](./solutions/498.%20Diagonal%20Traverse.py)|192 ms|
 |518|[ Coin Change 2](https://leetcode.com/problems/coin-change-2/)|[Python3](./solutions/518.%20Coin%20Change%202.py)|564 ms|
 |525|[ Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Python3](./solutions/525.%20Contiguous%20Array.py)|836 ms|
-|532|[ K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Python](./solutions/532.%20K-diff%20Pairs%20in%20an%20Array.python)|112 ms|
+|532|[ K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Python](./solutions/532.%20K-diff%20Pairs%20in%20an%20Array.python)|64 ms|
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Python3](./solutions/560.%20Subarray%20Sum%20Equals%20K.py)|244 ms|
 |702|[ Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Python3](./solutions/702.%20Search%20in%20a%20Sorted%20Array%20of%20Unknown%20Size.py)|32 ms|
 |705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[Python3](./solutions/705.%20Design%20HashSet.py)|224 ms|
