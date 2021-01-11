@@ -4,8 +4,7 @@ class Solution:
         #Space Complexity: O(1)
         #where, n is the length of string
         
-        s = ''.join(ch for ch in s if ch.isalnum())
-        s = s.lower()
+        s = ''.join(ch.lower() for ch in s if ch.isalnum())
     
         left, right = 0, len(s) - 1
     
