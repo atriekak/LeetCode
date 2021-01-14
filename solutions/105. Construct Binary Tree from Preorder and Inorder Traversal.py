@@ -50,3 +50,20 @@ class Solution:
         #edge / base
         if len(preorder) == 0:
             return None
+        
+        #logic
+        rootVal = preorder[0]
+        root = TreeNode(rootVal)
+        
+        idx = inorder.index(rootVal)
+        
+        inLeft = inorder[:idx]
+        inRight = inorder[idx + 1:]
+        preLeft = preorder[1:idx + 1]
+        preRight = preorder[idx + 1:]
+        
+        root.left = self.buildTree(preLeft, inLeft)
+        root.right = self.buildTree(preRight, inRight)
+        
+        return root
+    """
