@@ -43,3 +43,8 @@ class Solution:
             while root:
                 st.append(root)
                 root = root.left
+            root = st.pop()
+            if prev and prev.val >= root.val:
+                return False
+            prev = root
+            root = root.right
