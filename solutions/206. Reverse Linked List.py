@@ -7,32 +7,44 @@ class Solution:
     #Solution 1
     def reverseList(self, head: ListNode) -> ListNode:
         #Approach: Recursive
-        #Time Complexity: O(n)
-        #Space Complexity: O(1)
+        #Time Complexity: O(n) // equivalent to Solution 2
+        #Space Complexity: O(n)
         #where, n is the length of the linked list
         
-        prev = None
-        curr = head
-        
-        return self.helper(prev, curr)
-    
-    def helper(self, prev, curr):
         #base
-        if not curr:
-            return prev
+        if not head or not head.next:
+            return head
         
         #logic
-        temp = curr.next
-        curr.next = prev
-        return self.helper(curr, temp)
+        reversedHead = self.reverseList(head.next)
+        head.next.next = head
+        head.next = None
+        return reversedHead
     
     #Solution 2
     """
     def reverseList(self, head: ListNode) -> ListNode:
         #Approach: Iterative
         #Time Complexity: O(n)
-        #Space Complexity: O(1)
+        #Space Complexity: O(n)
         #where, n is the length of the linked list
         
-        prev = None
-        curr = head
+        if not head:
+            return None
+        
+        st = []
+        while head.next:
+            st.append(head)
+            head = head.next
+            
+        reversedHead = head
+        
+        while st:
+            head = st.pop()
+            head.next.next = head
+            head.next = None
+            
+        return reversedHead
+    """
+    
+    #Solution 3
