@@ -24,6 +24,7 @@
 |142|[ Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Python3](./solutions/142.%20Linked%20List%20Cycle%20II.py)|40 ms|
 |153|[ Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Python3](./solutions/153.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array.py)|36 ms|
 |155|[ Min Stack](https://leetcode.com/problems/min-stack/)|[Python3](./solutions/155.%20Min%20Stack.py)|56 ms|
+|160|[ Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Python3](./solutions/160.%20Intersection%20of%20Two%20Linked%20Lists.py)|152 ms|
 |162|[ Find Peak Element](https://leetcode.com/problems/find-peak-element/)|[Python3](./solutions/162.%20Find%20Peak%20Element.py)|40 ms|
 |198|[ House Robber](https://leetcode.com/problems/house-robber/)|[Python3](./solutions/198.%20House%20Robber.py)|32 ms|
 |205|[ Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Python3](./solutions/205.%20Isomorphic%20Strings.py)|36 ms|
