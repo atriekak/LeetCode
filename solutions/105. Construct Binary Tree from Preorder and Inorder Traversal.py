@@ -24,7 +24,6 @@ class Solution:
         return self.helper(preorder, 0, len(inorder) - 1)
     
     def helper(self, preorder, start, end):
-        print([start, end, start > end], self.idx)
         #base
         if start > end:
             return None
@@ -41,12 +40,3 @@ class Solution:
         return root
     
     #Solution 2
-    """
-    def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
-        #Approach: Brute-force recursive
-        #Time Complexity: O(n^2) // finding idx in every recursion call
-        #Space Complexity: O(n^2) // in/pre-Arrays in every recursion call
-        #where, n is the length of the list
-        
-        #edge / base
-        if len(preorder) == 0:
