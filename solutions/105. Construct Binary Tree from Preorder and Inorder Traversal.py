@@ -21,9 +21,10 @@ class Solution:
         for i in range(len(inorder)):
             self.inorder_map[inorder[i]] = i
             
-        return self.helper(preorder, 0, len(preorder) - 1)
+        return self.helper(preorder, 0, len(inorder) - 1)
     
     def helper(self, preorder, start, end):
+        print([start, end, start > end], self.idx)
         #base
         if start > end:
             return None
@@ -49,21 +50,3 @@ class Solution:
         
         #edge / base
         if len(preorder) == 0:
-            return None
-        
-        #logic
-        rootVal = preorder[0]
-        root = TreeNode(rootVal)
-        
-        idx = inorder.index(rootVal)
-        
-        inLeft = inorder[:idx]
-        inRight = inorder[idx + 1:]
-        preLeft = preorder[1:idx + 1]
-        preRight = preorder[idx + 1:]
-        
-        root.left = self.buildTree(preLeft, inLeft)
-        root.right = self.buildTree(preRight, inRight)
-        
-        return root
-    """
