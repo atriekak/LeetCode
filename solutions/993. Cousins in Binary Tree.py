@@ -33,3 +33,15 @@ class Solution:
                     de.append(popped.right)
             
             if x in temp and y in temp: #cousins
+                return True
+            if x in temp or y in temp: #neither siblings nor cousins
+                return False
+    
+    #Solution 2
+    """
+    def isCousins(self, root: TreeNode, x: int, y: int) -> bool:
+        #Approach: DFS
+        #Time Complexity: O(n)
+        #Space Complexity: O(h) // under the hood
+           
+        self.parentX, self.parentY = None, None
