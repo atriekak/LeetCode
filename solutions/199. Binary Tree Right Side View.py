@@ -1,3 +1,25 @@
+            result.append(temp)
+            
+        return result
+    
+    #Solution 2
+    """
+    def rightSideView(self, root: TreeNode) -> List[int]:
+        #Approach: DFS, right-root-left
+        #Time Complexity: O(n)
+        #Space Complexity: O(h) // under the hood
+        
+        self.result = []
+        
+        if not root:
+            return self.result
+        
+        self.dfs(root, 0)
+        return self.result
+    
+    def dfs(self, root, level):
+        #base
+        if not root:
             return
         
         #logic
