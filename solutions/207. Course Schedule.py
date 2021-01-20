@@ -1,6 +1,7 @@
 from collections import deque
 ​
 class Solution:
+    #Solution 1
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         #Approach: BFS
         #Time Complexity: O(V + E)
@@ -35,3 +36,21 @@ class Solution:
                     de.append(edge)
         
         return count == numCourses
+    
+    #Solution 2
+    """
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+        #Approach: DFS, iterative
+        #Time Complexity: O(V + E)
+        #Space Complexity: O(V + E) // edgeMap
+        #where, V is the number of vertices and E is the number of edges
+        
+        if len(prerequisites) == 0:
+            return True
+        
+        indegrees = [0 for i in range(numCourses)]
+        edgeMap = {}
+        for edge in prerequisites:
+            indegrees[edge[0]] += 1
+            
+            if edge[1] not in edgeMap:
