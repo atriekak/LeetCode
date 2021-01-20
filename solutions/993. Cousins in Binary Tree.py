@@ -33,6 +33,3 @@ class Solution:
                     de.append(popped.right)
             
             if x in temp and y in temp: #cousins
-                return True
-            if x in temp or y in temp: #neither siblings nor cousins
-                return False
