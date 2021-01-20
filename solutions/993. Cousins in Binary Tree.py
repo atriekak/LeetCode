@@ -8,6 +8,7 @@
 from collections import deque
 ​
 class Solution:
+    #Solution 1
     def isCousins(self, root: TreeNode, x: int, y: int) -> bool:
         #Approach: BFS
         #Time Complexity: O(n)
@@ -45,3 +46,5 @@ class Solution:
         #Space Complexity: O(h) // under the hood
            
         self.parentX, self.parentY = None, None
+        self.levelX, self.levelY = None, None
+        
