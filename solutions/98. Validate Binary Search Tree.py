@@ -67,3 +67,15 @@ class Solution:
         return self.inorder(root)
     
     def inorder(self, root):
+        #base
+        if not root:
+            return True
+        
+        #logic
+        #if we always return, the control won't go to code below
+        #but we still have to check the right side if True
+        if self.inorder(root.left) == False:
+            return False
+        
+        if self.prev and self.prev.val >= root.val:
+            return False
