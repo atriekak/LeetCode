@@ -48,12 +48,3 @@ class Solution:
             self.isValid = False
             return
         
-        #logic
-        self.helper(left.left, right.right)
-        self.helper(left.right, right.left)
-    """
-    
-    #Solution 3
-    """
-    def isSymmetric(self, root: TreeNode) -> bool:
-        #Approach: Iterative
