@@ -1,3 +1,14 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    #Solution 1
+    def kthSmallest(self, root: TreeNode, k: int) -> int:
+        #Approach: Morris Inorder Tree Traversal
+        #Time Complexity: O(n)
         #Space Complexity: O(1)
 ​
         curr = root
@@ -56,8 +67,3 @@
             self.result = root
             return
         
-        if self.result == None: #to suppress recursion after the solution is found
-            self.kthSmallestHelper(root.right, k)
-    """
-    
-    #Solution 3
