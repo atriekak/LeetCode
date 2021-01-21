@@ -59,9 +59,3 @@ class Solution:
         #Time Complexity: O(n)
         #Space Complexity: O(h)
         #where, h is the height of the BST
-        
-        if not root:
-            return True
-        
-        self.prev = None
-        return self.inorder(root)
