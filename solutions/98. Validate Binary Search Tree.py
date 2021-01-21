@@ -61,13 +61,3 @@ class Solution:
         #where, h is the height of the BST
         
         if not root:
-            return True
-        
-        self.prev = None
-        return self.inorder(root)
-    
-    def inorder(self, root):
-        #base
-        if not root:
-            return True
-        
