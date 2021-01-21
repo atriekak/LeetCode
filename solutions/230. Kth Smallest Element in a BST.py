@@ -61,9 +61,3 @@ class Solution:
         
         #logic
         self.kthSmallestHelper(root.left, k)
-        self.k -= 1
-        
-        if self.k == 0:
-            self.result = root
-            return
-        
