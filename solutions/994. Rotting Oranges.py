@@ -3,8 +3,8 @@ from collections import deque
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         #Approach: BFS, level-order traversal
-        #Time Complexity: O(n)
-        #Space Complexity: O(n) // deque
+        #Time Complexity: O(m * n)
+        #Space Complexity: O(m * n) // deque
         
         dirs = [(-1, 0), (0, -1), (0, 1), (1, 0)]
         
