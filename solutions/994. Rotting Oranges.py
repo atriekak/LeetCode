@@ -6,19 +6,22 @@ class Solution:
         #Time Complexity: O(m * n)
         #Space Complexity: O(m * n) // deque
         
-        dirs = [(-1, 0), (0, -1), (0, 1), (1, 0)]
+        m, n = len(grid), len(grid[0])
         
+        fresh = 0
         de = deque()
-        for i in range(len(grid)):
-            for j in range(len(grid[0])):
+        for i in range(m):
+            for j in range(n):
                 if grid[i][j] == 2:
                     de.append((i,j))
+                elif grid[i][j] == 1:
+                    fresh += 1
         
-        if len(de) == 0:
-            minutes = 0
-        else:
-            minutes = -1
-            
+        if fresh == 0:
+            return 0
+        
+        minutes = -1
+        dirs = [(-1, 0), (0, -1), (0, 1), (1, 0)]    
         while de:
             minutes += 1
             sz = len(de)
@@ -26,16 +29,12 @@ class Solution:
             for i in range(sz):
                 cell = de.popleft()
                 for d in dirs:
-                    x = cell[0] + d[0]
-                    y = cell[1] + d[1]
+                    r = cell[0] + d[0]
+                    c = cell[1] + d[1]
                     
-                    if x >= 0 and x < len(grid) and y >= 0 and y < len(grid[0]) and grid[x][y] == 1:
-                        de.append((x, y))
-                        grid[x][y] = 2
+                    if r >= 0 and r < m and c >= 0 and c < n and grid[r][c] == 1:
+                        de.append((r, c))
+                        grid[r][c] = 2
+                        fresh -= 1
         
-        for i in range(len(grid)):
-            for j in range(len(grid[0])):
-                if grid[i][j] == 1:
-                    return -1
-        
-        return minutes
+        return minutes if fresh == 0 else -1
