@@ -1,27 +1,4 @@
     
-    #Solution 2
-    """
-    def isValidBST(self, root: TreeNode) -> bool:
-        #Approach: iterative; but exactly the same under the hood as solutions 3 and 4
-        #Time Complexity: O(n)
-        #Space Complexity: O(h)
-        #where, h is the height of the BST
-        
-        st = []
-        prev = None
-        while root or st:
-            while root:
-                st.append(root)
-                root = root.left
-            root = st.pop()
-            if prev and prev.val >= root.val:
-                return False
-            prev = root
-            root = root.right
-            
-        return True
-    """
-    
     #Solution 3
     """
     def isValidBST(self, root: TreeNode) -> bool:
@@ -76,3 +53,16 @@
         if not root:
             return
         
+        #logic
+        self.inorder(root.left)
+        
+        if self.prev and self.prev.val >= root.val:
+            self.isValid = False
+            #will still get the correct answer if we comment the return out
+            #will just traverse through the entire tree each time
+            return 
+        
+        self.prev = root
+        
+        self.inorder(root.right)
+    """
