@@ -48,3 +48,34 @@ class Solution:
             self.isValid = False
             return
         
+        #logic
+        self.helper(left.left, right.right)
+        self.helper(left.right, right.left)
+    """
+    
+    #Solution 3
+    """
+    def isSymmetric(self, root: TreeNode) -> bool:
+        #Approach: Iterative
+        #Time Complexity: O(n) // visiting every node exactly once
+        #Space Complexity: O(h) // recursion stack
+        
+        if not root:
+            return True
+        
+        st = []
+        st.append((root.left, root.right))
+        
+        while st:
+            left, right = st.pop()
+            
+            if not left and not right:
+                continue
+            if not left or not right or left.val != right.val:
+                return False
+            
+            st.append((left.left, right.right))
+            st.append((left.right, right.left))
+        
+        return True
+    """
