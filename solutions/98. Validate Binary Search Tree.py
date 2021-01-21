@@ -52,3 +52,10 @@ class Solution:
         return True
     """
     
+    #Solution 3
+    """
+    def isValidBST(self, root: TreeNode) -> bool:
+        #Approach: recursion; returns validity of BST at that node
+        #Time Complexity: O(n)
+        #Space Complexity: O(h)
+        #where, h is the height of the BST
