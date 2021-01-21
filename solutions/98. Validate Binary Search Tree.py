@@ -52,24 +52,3 @@ class Solution:
         return True
     """
     
-    #Solution 3
-    """
-    def isValidBST(self, root: TreeNode) -> bool:
-        #Approach: recursion; returns validity of BST at that node
-        #Time Complexity: O(n)
-        #Space Complexity: O(h)
-        #where, h is the height of the BST
-        
-        if not root:
-            return True
-        
-        self.prev = None
-        return self.inorder(root)
-    
-    def inorder(self, root):
-        #base
-        if not root:
-            return True
-        
-        #logic
-        #if we always return, the control won't go to code below
