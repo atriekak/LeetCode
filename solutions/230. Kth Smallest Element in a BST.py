@@ -61,3 +61,33 @@ class Solution:
         
         #logic
         self.kthSmallestHelper(root.left, k)
+        self.k -= 1
+        
+        if self.k == 0:
+            self.result = root
+            return
+        
+        if self.result == None: #to suppress recursion after the solution is found
+            self.kthSmallestHelper(root.right, k)
+    """
+    
+    #Solution 3
+    """
+    def kthSmallest(self, root: TreeNode, k: int) -> int:
+        #Approach: Iterative DFS
+        #Time Complexity: O(n)
+        #Space Complexity: O(h)
+        
+        st = []
+        while root or st:
+            while root:
+                st.append(root)
+                root = root.left
+            root = st.pop()
+            
+            k -= 1
+            if k == 0:
+                return root.val
+            
+            root = root.right
+    """
