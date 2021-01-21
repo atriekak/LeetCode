@@ -29,5 +29,4 @@ class Solution:
                     l2 = mid2 + 1
                 else:
                     r2 = mid2 - 1
-        return [-1,-1]
-                
+        return [-1,-1]           
