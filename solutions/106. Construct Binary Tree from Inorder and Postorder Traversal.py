@@ -35,3 +35,35 @@ class Solution:
         
         rIdx = self.inorder_map[rootVal]            #rootIndex in inorder
         root.right = self.helper(postorder, rIdx + 1, end)
+        root.left = self.helper(postorder, start, rIdx - 1)
+        
+        return root
+    
+    #Solution 2
+    """
+    def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:
+        #Approach: Brute-force recursive
+        #Time Complexity: O(n^2) // finding idx in every recursion call
+        #Space Complexity: O(n^2) // in/post-Arrays in every recursion call
+        #where, n is the length of the list
+        
+        #edge / base
+        if len(postorder) == 0:
+            return None
+        
+        #logic
+        rootVal = postorder[-1]
+        root = TreeNode(rootVal)
+        
+        idx = inorder.index(rootVal)
+        
+        inLeft = inorder[:idx]
+        inRight = inorder[idx + 1:]
+        postLeft = postorder[:idx]
+        postRight = postorder[idx:-1]
+        
+        root.left = self.buildTree(inLeft, postLeft)
+        root.right = self.buildTree(inRight, postRight)
+        
+        return root
+    """
