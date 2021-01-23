@@ -21,7 +21,7 @@
 |106|[ Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Python3](./solutions/106.%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.py)|48 ms|
 |110|[ Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Python3](./solutions/110.%20Balanced%20Binary%20Tree.py)|44 ms|
 |113|[ Path Sum II](https://leetcode.com/problems/path-sum-ii/)|[Python3](./solutions/113.%20Path%20Sum%20II.py)|40 ms|
-|118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Python3](./solutions/118.%20Pascal's%20Triangle.py)|28 ms|
+|118|[ Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Python3](./solutions/118.%20Pascal's%20Triangle.py)|48 ms|
 |125|[ Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Python3](./solutions/125.%20Valid%20Palindrome.py)|36 ms|
 |129|[ Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)|[Python3](./solutions/129.%20Sum%20Root%20to%20Leaf%20Numbers.py)|32 ms|
 |142|[ Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[Python3](./solutions/142.%20Linked%20List%20Cycle%20II.py)|40 ms|
