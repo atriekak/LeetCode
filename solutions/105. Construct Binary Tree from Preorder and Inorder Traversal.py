@@ -40,3 +40,30 @@ class Solution:
         return root
     
     #Solution 2
+    """
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
+        #Approach: Brute-force recursive
+        #Time Complexity: O(n^2) // finding idx in every recursion call
+        #Space Complexity: O(n^2) // in/pre-Arrays in every recursion call
+        #where, n is the length of the list
+        
+        #edge / base
+        if len(preorder) == 0:
+            return None
+        
+        #logic
+        rootVal = preorder[0]
+        root = TreeNode(rootVal)
+        
+        idx = inorder.index(rootVal)
+        
+        inLeft = inorder[:idx]
+        inRight = inorder[idx + 1:]
+        preLeft = preorder[1:idx + 1]
+        preRight = preorder[idx + 1:]
+        
+        root.left = self.buildTree(preLeft, inLeft)
+        root.right = self.buildTree(preRight, inRight)
+        
+        return root
+    """
