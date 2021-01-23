@@ -48,3 +48,25 @@ class Solution:
     """
     
     #Solution 3
+    """
+    def reverseList(self, head: ListNode) -> ListNode:
+        #Approach: Recursive // roughly similar to Solution 4
+        #Time Complexity: O(n)
+        #Space Complexity: O(n)
+        #where, n is the length of the linked list
+        
+        prev = None
+        curr = head
+        
+        return self.helper(prev, curr)
+    
+    def helper(self, prev, curr):
+        #base
+        if not curr:
+            return prev
+        
+        #logic
+        temp = curr.next
+        curr.next = prev
+        return self.helper(curr, temp)
+    """
