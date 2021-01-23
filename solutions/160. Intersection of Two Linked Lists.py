@@ -30,3 +30,36 @@ class Solution:
         while lenB > lenA:
             headB = headB.next
             lenB -= 1
+            
+        while headA != headB:       #also takes care of the 'no intersection' scenario
+            headA = headA.next
+            headB = headB.next
+            
+        return headA                #or headB
+    
+    #Solution 2:
+    """
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+        #Approach: Two pointers
+        #Time Complexity: O(m + n)
+        #Space Complexity: O(1)
+        
+        if not headA or not headB:
+            return None
+        
+        pointer1 = headA
+        pointer2 = headB
+        
+        while pointer1 != pointer2:
+            pointer1 = pointer1.next
+            pointer2 = pointer2.next
+            
+            if not pointer1 and not pointer2:       #no intersection
+                continue
+            if not pointer1:
+                pointer1 = headB
+            if not pointer2:
+                pointer2 = headA
+        
+        return pointer1
+    """
