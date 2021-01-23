@@ -50,3 +50,6 @@ class Solution:
         rightBal, rightHt = self.helper(root.right)
         if not rightBal:
             return False, 0
+        
+        return abs(leftHt - rightHt) <= 1, 1 + max(leftHt, rightHt)
+    """
