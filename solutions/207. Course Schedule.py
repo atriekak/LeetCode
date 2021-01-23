@@ -54,3 +54,23 @@ class Solution:
             indegrees[edge[0]] += 1
             
             if edge[1] not in edgeMap:
+                edgeMap[edge[1]] = []
+            edgeMap[edge[1]].append(edge[0])
+        
+        st = [] 
+        for i in range(len(indegrees)):
+            if indegrees[i] == 0:
+                st.append(i)
+        
+        count = 0
+        while st:
+            popped = st.pop()
+            count += 1
+            edges = edgeMap.get(popped,[])
+            for edge in edges:
+                indegrees[edge] -= 1
+                if indegrees[edge] == 0:
+                    st.append(edge)
+        
+        return count == numCourses
+    """
