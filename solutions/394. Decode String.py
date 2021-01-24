@@ -1,6 +1,7 @@
 class Solution:
-    i = 0
+    #Solution 1
     
+    i = 0
     def decodeString(self, s: str) -> str:
         #Approach: DFS, recursion
         #Time Complexity: O(n * max(k)) //length of the decoded string
@@ -40,6 +41,7 @@ class Solution:
         
         return currStr
     
+    #Solution 2
     """
     def decodeString(self, s: str) -> str:
         #Approach: Two stacks
