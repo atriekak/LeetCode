@@ -43,6 +43,7 @@
 |205|[ Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)|[Python3](./solutions/205.%20Isomorphic%20Strings.py)|36 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Python3](./solutions/206.%20Reverse%20Linked%20List.py)|32 ms|
 |207|[ Course Schedule](https://leetcode.com/problems/course-schedule/)|[Python3](./solutions/207.%20Course%20Schedule.py)|88 ms|
+|208|[ Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)|[Python3](./solutions/208.%20Implement%20Trie%20(Prefix%20Tree).py)|296 ms|
 |230|[ Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[Python3](./solutions/230.%20Kth%20Smallest%20Element%20in%20a%20BST.py)|52 ms|
 |232|[ Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Python3](./solutions/232.%20Implement%20Queue%20using%20Stacks.py)|20 ms|
 |238|[ Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Python3](./solutions/238.%20Product%20of%20Array%20Except%20Self.py)|212 ms|
