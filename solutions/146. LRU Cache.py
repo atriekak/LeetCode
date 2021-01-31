@@ -36,3 +36,30 @@ class LRUCache:
                 del self.map[tailPrev.key]
                 
             node = Node(key, value)
+            self.addtoHead(node)
+            self.map[key] = node
+            
+    def addtoHead(self, node):
+        node.next = self.head.next
+        node.prev = self.head
+        self.head.next = node
+        node.next.prev = node
+        return
+        
+    def removeNode(self, node):
+        node.prev.next = node.next
+        node.next.prev = node.prev
+        return
+​
+class Node:
+    def __init__(self, key, val):
+        self.key = key
+        self.val = val
+        self.prev = None
+        self.next = None
+​
+​
+# Your LRUCache object will be instantiated and called as such:
+# obj = LRUCache(capacity)
+# param_1 = obj.get(key)
+# obj.put(key,value)
