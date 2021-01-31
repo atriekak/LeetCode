@@ -36,3 +36,11 @@ class Solution:
             if curr.isEnd:
                 result.append(replacement)
             else:
+                result.append(word)
+        
+        return ' '.join(result)
+​
+class TrieNode:
+    def __init__(self):
+        self.isEnd = False
+        self.children = [None for i in range(26)]
