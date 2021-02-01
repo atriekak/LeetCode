@@ -6,6 +6,7 @@
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Python3](./solutions/11.%20Container%20With%20Most%20Water.py)|164 ms|
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[Python3](./solutions/15.%203Sum.py)|892 ms|
 |19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Python3](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.py)|28 ms|
+|22|[ Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Python3](./solutions/22.%20Generate%20Parentheses.py)|36 ms|
 |33|[ Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Python3](./solutions/33.%20Search%20in%20Rotated%20Sorted%20Array.py)|36 ms|
 |34|[ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Python3](./solutions/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.py)|76 ms|
 |36|[ Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Python3](./solutions/36.%20Valid%20Sudoku.py)|92 ms|
