@@ -55,6 +55,7 @@
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Python3](./solutions/290.%20Word%20Pattern.py)|24 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Python3](./solutions/322.%20Coin%20Change.py)|2720 ms|
 |341|[ Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[Python3](./solutions/341.%20Flatten%20Nested%20List%20Iterator.py)|60 ms|
+|359|[ Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Python3](./solutions/359.%20Logger%20Rate%20Limiter.py)|140 ms|
 |394|[ Decode String](https://leetcode.com/problems/decode-string/)|[Python3](./solutions/394.%20Decode%20String.py)|28 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|32 ms|
 |448|[ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Python3](./solutions/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.py)|356 ms|
