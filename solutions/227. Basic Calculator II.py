@@ -36,9 +36,5 @@ class Solution:
             self.tail *= curr
             
         else: #op == '/'
-            if self.tail >= 0:
-                self.calc = (self.calc - self.tail) + floor(self.tail / curr)
-                self.tail = floor(self.tail / curr)
-            else:
-                self.calc = (self.calc - self.tail) + ceil(self.tail / curr)
-                self.tail = ceil(self.tail / curr)
+            self.calc = (self.calc - self.tail) + int(self.tail / curr)
+            self.tail = int(self.tail / curr)
