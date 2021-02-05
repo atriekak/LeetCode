@@ -13,6 +13,7 @@
 |36|[ Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Python3](./solutions/36.%20Valid%20Sudoku.py)|92 ms|
 |39|[ Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python3](./solutions/39.%20Combination%20Sum.py)|76 ms|
 |49|[ Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Python3](./solutions/49.%20Group%20Anagrams.py)|100 ms|
+|50|[ Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Python3](./solutions/50.%20Pow(x%2C%20n).py)|16 ms|
 |51|[ N-Queens](https://leetcode.com/problems/n-queens/)|[Python3](./solutions/51.%20N-Queens.py)|56 ms|
 |54|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Python3](./solutions/54.%20Spiral%20Matrix.py)|28 ms|
 |74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Python3](./solutions/74.%20Search%20a%202D%20Matrix.py)|36 ms|
