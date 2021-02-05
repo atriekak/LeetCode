@@ -60,6 +60,7 @@
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Python3](./solutions/290.%20Word%20Pattern.py)|24 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Python3](./solutions/322.%20Coin%20Change.py)|2720 ms|
 |341|[ Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[Python3](./solutions/341.%20Flatten%20Nested%20List%20Iterator.py)|60 ms|
+|349|[ Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Python3](./solutions/349.%20Intersection%20of%20Two%20Arrays.py)|44 ms|
 |350|[ Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Python3](./solutions/350.%20Intersection%20of%20Two%20Arrays%20II.py)|44 ms|
 |355|[ Design Twitter](https://leetcode.com/problems/design-twitter/)|[Python3](./solutions/355.%20Design%20Twitter.py)|92 ms|
 |359|[ Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Python3](./solutions/359.%20Logger%20Rate%20Limiter.py)|140 ms|
