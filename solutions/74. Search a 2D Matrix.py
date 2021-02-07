@@ -12,7 +12,6 @@ class Solution:
         r = (m*n) - 1
         while l <= r:
             mid = (l + r) // 2
-            print(mid)
             row = mid // n
             col = mid % n
             
