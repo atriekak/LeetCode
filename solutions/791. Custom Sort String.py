@@ -1,7 +1,7 @@
 class Solution:
     def customSortString(self, S: str, T: str) -> str:
         #Time Complexity: O(len(S) + len(T))
-        #Space Complexity: O(len(T))  // could have used str instead of [] for SC-TC trade-off
+        #Space Complexity: O(len(T))  // for the list/stringBuilder
         
         count = {}
         for char in T:
