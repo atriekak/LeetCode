@@ -23,8 +23,6 @@ class Solution:
             
             if l1 <= r2 and l2 <= r1:   #found the partition
                 if (n1 + n2) % 2 == 0:
-                    print([partX, partY])
-                    print([l1, l2, r1, r2])
                     return (max(l1, l2) + min(r1, r2)) / 2
                 else:
                     return min(r1, r2)
