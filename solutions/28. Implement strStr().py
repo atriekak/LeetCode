@@ -8,7 +8,14 @@ class Solution:
         lenH, lenN = len(haystack), len(needle)
         
         for i in range(lenH - lenN + 1):
-            if haystack[i : i + lenN] == needle:
+            if self.isMatch(haystack, needle, i):
                 return i
             
         return -1
+    
+    def isMatch(self, str1, str2, i):
+        for j in range(len(str2)):
+            if i + j >= len(str1) or str1[i + j] != str2[j]:
+                return False
+        
+        return True
