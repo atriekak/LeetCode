@@ -1,4 +1,5 @@
 class Solution:
+    #Solution 1
     def lengthOfLongestSubstring(self, s: str) -> int:
         #Approach: Sliding Window
         #Time Complexity: O(n)
@@ -17,6 +18,7 @@ class Solution:
 ​
         return maxLen
         
+    #Solution 2
     """
     def lengthOfLongestSubstring(self, s: str) -> int:
         #Approach: HashMap
