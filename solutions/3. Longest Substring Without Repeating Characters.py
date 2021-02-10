@@ -32,3 +32,7 @@ class Solution:
             length = i - lastSeen.get(char, -1)
             currLen = min(currLen + 1, length)
             maxLen = max(maxLen, currLen)
+            lastSeen[char] = i
+              
+        return maxLen
+    """
