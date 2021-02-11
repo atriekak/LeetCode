@@ -11,7 +11,7 @@
 |19|[ Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Python3](./solutions/19.%20Remove%20Nth%20Node%20From%20End%20of%20List.py)|28 ms|
 |22|[ Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)|[Python3](./solutions/22.%20Generate%20Parentheses.py)|36 ms|
 |23|[ Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Python3](./solutions/23.%20Merge%20k%20Sorted%20Lists.py)|104 ms|
-|28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Python3](./solutions/28.%20Implement%20strStr().py)|32 ms|
+|28|[ Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Python3](./solutions/28.%20Implement%20strStr().py)|44 ms|
 |33|[ Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Python3](./solutions/33.%20Search%20in%20Rotated%20Sorted%20Array.py)|36 ms|
 |34|[ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)|[Python3](./solutions/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array.py)|76 ms|
 |36|[ Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Python3](./solutions/36.%20Valid%20Sudoku.py)|92 ms|
