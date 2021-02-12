@@ -6,6 +6,7 @@
 #         self.right = None
 ​
 class Solution:
+    #Solution 1
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         #Approach: Iterative
         #Time Coomplexity: O(n)
@@ -20,6 +21,7 @@ class Solution:
             else:
                 return root
     
+    #Solution 2
     """
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         #Approach: Recursive
