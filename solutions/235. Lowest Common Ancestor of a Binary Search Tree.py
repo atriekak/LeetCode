@@ -9,7 +9,7 @@ class Solution:
     #Solution 1
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         #Approach: Iterative
-        #Time Coomplexity: O(n)
+        #Time Coomplexity: O(h)
         #Space Complexity: O(1)
         #where, n is the size of the tree
         
@@ -25,7 +25,7 @@ class Solution:
     """
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         #Approach: Recursive
-        #Time Coomplexity: O(n)
+        #Time Coomplexity: O(h)
         #Space Complexity: O(h)
         #where, n and h are the size and height of the tree, respectively
         
