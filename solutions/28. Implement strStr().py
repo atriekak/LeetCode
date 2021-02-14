@@ -10,7 +10,6 @@ class Solution:
             return 0
         
         lps = self.lps(needle)
-        print(lps)
         
         i, j = 0, 0
         while i < lenH:
