@@ -1,6 +1,6 @@
 class Solution:
     #Solution 1
-    def maximalSquare(self, matrix: List[List[str]]) -> int:
+    def maximalSquare(self, matrix):
         #Approach: Dynamic Proogramming
         #Time Complexity: O(m * n)
         #Space Complexity: 
@@ -11,16 +11,11 @@ class Solution:
         for i in range(len(matrix)):
             for j in range(len(matrix[0])):
                 if i == 0 or j == 0 or matrix[i][j] == '0':
-                    pass
-                
+                    matrix[i][j] = int(matrix[i][j])
                 else:
-                    up = int(matrix[i-1][j])
-                    left = int(matrix[i][j-1])
-                    upLeft = int(matrix[i-1][j-1])
-                    
-                    matrix[i][j] = 1 + min(up, left, upLeft)
+                    matrix[i][j] = 1 + min(matrix[i-1][j], matrix[i][j-1], matrix[i-1][j-1])
                 
-                maxLen = max(maxLen, int(matrix[i][j]))
+                maxLen = max(maxLen, matrix[i][j])
         
         return maxLen**2
     
