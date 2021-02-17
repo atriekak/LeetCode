@@ -1,5 +1,3 @@
-from math import factorial as fact
-​
 class Solution:
     #Solution 1
     def uniquePaths(self, m: int, n: int) -> int:
@@ -7,7 +5,14 @@ class Solution:
         #Time Complexity: O(m + n)      // if we consider multiplication O(1)
         #Space Complexity: O(1)
         
-        return fact(m + n - 2) // (fact(m - 1) * fact(n - 1))
+        def factorial(k):
+            #base
+            if k == 0:
+                return 1
+            #logic
+            return k * factorial(k - 1)
+        
+        return factorial(m + n - 2) // (factorial(m - 1) * factorial(n - 1))
     
     #Solution 2
     """
