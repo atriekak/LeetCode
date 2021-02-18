@@ -48,3 +48,6 @@ class Solution:
                             sqlen += 1
                             
                     maxLen = max(maxLen, sqlen)
+        
+        return maxLen ** 2
+    """
