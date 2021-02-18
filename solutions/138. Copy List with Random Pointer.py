@@ -8,6 +8,7 @@ class Node:
 """
 ​
 class Solution:
+    #Solution 1
     def copyRandomList(self, head: 'Node') -> 'Node':
         #Approach: Adjacent deep copies
         #Time Complexity: O(n)
