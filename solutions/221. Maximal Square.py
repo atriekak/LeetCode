@@ -1,7 +1,7 @@
 class Solution:
     #Solution 1
     def maximalSquare(self, matrix):
-        #Approach: Dynamic Proogramming
+        #Approach: Dynamic Programming
         #Time Complexity: O(m * n)
         #Space Complexity: 
         #where, the given matrix is of size m * n
@@ -48,6 +48,3 @@ class Solution:
                             sqlen += 1
                             
                     maxLen = max(maxLen, sqlen)
-        
-        return maxLen ** 2
-    """
