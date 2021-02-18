@@ -1,6 +1,11 @@
 class Solution:
     #Solution 1
     def maxSumAfterPartitioning(self, arr: List[int], k: int) -> int:
+        #Approach: Dynamic Programming
+        #Time Complexity: O(n * k)
+        #Space Complexity: O(n)
+        #where, n is the length of arr
+        
         dp = [None for _ in arr]
         
         for i in range(len(dp)):
@@ -22,6 +27,11 @@ class Solution:
     #Solution 2
     """
     def maxSumAfterPartitioning(self, arr: List[int], k: int) -> int:
+        #Approach: Recursion
+        #Time Complexity: O(n^k)
+        #Space Complexity: O(n)     // recursion stack
+        #where, n is the length of arr
+        
         self.result = 0
         self.helper(arr, k, 0, 0)
         return self.result
