@@ -108,6 +108,7 @@
 |740|[ Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[Python3](./solutions/740.%20Delete%20and%20Earn.py)|52 ms|
 |791|[ Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[Python3](./solutions/791.%20Custom%20Sort%20String.py)|28 ms|
 |931|[ Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[Python3](./solutions/931.%20Minimum%20Falling%20Path%20Sum.py)|108 ms|
+|983|[ Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|[Python3](./solutions/983.%20Minimum%20Cost%20For%20Tickets.py)|28 ms|
 |993|[ Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Python3](./solutions/993.%20Cousins%20in%20Binary%20Tree.py)|24 ms|
 |994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Python3](./solutions/994.%20Rotting%20Oranges.py)|40 ms|
 |997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[Python3](./solutions/997.%20Find%20the%20Town%20Judge.py)|724 ms|
