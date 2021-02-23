@@ -77,6 +77,7 @@
 |256|[ Paint House](https://leetcode.com/problems/paint-house/)|[Python3](./solutions/256.%20Paint%20House.py)|52 ms|
 |266|[ Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Python3](./solutions/266.%20Palindrome%20Permutation.py)|24 ms|
 |273|[ Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|[Python3](./solutions/273.%20Integer%20to%20English%20Words.py)|20 ms|
+|274|[ H-Index](https://leetcode.com/problems/h-index/)|[Python3](./solutions/274.%20H-Index.py)|36 ms|
 |275|[ H-Index II](https://leetcode.com/problems/h-index-ii/)|[Python3](./solutions/275.%20H-Index%20II.py)|132 ms|
 |282|[ Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[Python3](./solutions/282.%20Expression%20Add%20Operators.py)|816 ms|
 |289|[ Game of Life](https://leetcode.com/problems/game-of-life/)|[Python3](./solutions/289.%20Game%20of%20Life.py)|28 ms|
