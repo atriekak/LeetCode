@@ -20,6 +20,7 @@
 |50|[ Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Python3](./solutions/50.%20Pow(x%2C%20n).py)|16 ms|
 |51|[ N-Queens](https://leetcode.com/problems/n-queens/)|[Python3](./solutions/51.%20N-Queens.py)|56 ms|
 |54|[ Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Python3](./solutions/54.%20Spiral%20Matrix.py)|28 ms|
+|61|[ Rotate List](https://leetcode.com/problems/rotate-list/)|[Python3](./solutions/61.%20Rotate%20List.py)|32 ms|
 |62|[ Unique Paths](https://leetcode.com/problems/unique-paths/)|[Python3](./solutions/62.%20Unique%20Paths.py)|24 ms|
 |74|[ Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)|[Python3](./solutions/74.%20Search%20a%202D%20Matrix.py)|36 ms|
 |75|[ Sort Colors](https://leetcode.com/problems/sort-colors/)|[Python3](./solutions/75.%20Sort%20Colors.py)|60 ms|
