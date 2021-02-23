@@ -48,3 +48,13 @@ class Solution:
         """
         #Approach: Brute Force
         #Time Complexity: O(n * k)
+        #Space Complexity: O(1)
+        #where, n is the length of nums
+        
+        k %= len(nums)
+        for i in range(k):
+            last = nums[-1]
+            for j in range(len(nums) - 1, 0, -1):
+                nums[j] = nums[j-1]
+            nums[0] = last
+    '''
