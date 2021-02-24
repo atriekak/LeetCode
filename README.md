@@ -93,6 +93,7 @@
 |355|[ Design Twitter](https://leetcode.com/problems/design-twitter/)|[Python3](./solutions/355.%20Design%20Twitter.py)|92 ms|
 |359|[ Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Python3](./solutions/359.%20Logger%20Rate%20Limiter.py)|140 ms|
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Python3](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.py)|152 ms|
+|379|[ Design Phone Directory](https://leetcode.com/problems/design-phone-directory/)|[Python3](./solutions/379.%20Design%20Phone%20Directory.py)|80 ms|
 |394|[ Decode String](https://leetcode.com/problems/decode-string/)|[Python3](./solutions/394.%20Decode%20String.py)|28 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|32 ms|
 |438|[ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Python3](./solutions/438.%20Find%20All%20Anagrams%20in%20a%20String.py)|96 ms|
