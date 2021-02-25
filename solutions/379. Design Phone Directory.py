@@ -1,3 +1,5 @@
+from collections import deque
+​
 #Solution 1
 class PhoneDirectory:
     #Approach: HashSet
@@ -11,6 +13,7 @@ class PhoneDirectory:
         """
         self.next, self.max = 0, maxNumbers - 1
         self.released = set()
+        self.de = deque()       #could have used a stack too
 ​
     def get(self) -> int:
         """
@@ -18,7 +21,9 @@ class PhoneDirectory:
         @return - Return an available number. Return -1 if none is available.
         """
         if self.released:
-            return self.released.pop()
+            popped = self.de.popleft()
+            self.released.remove(popped)
+            return popped
         if self.next <= self.max:
             self.next += 1
             return self.next - 1
@@ -34,7 +39,8 @@ class PhoneDirectory:
         """
         Recycle or release a number.
         """
-        if self.next > number:
+        if self.next > number and number not in self.released:
+            self.de.append(number)
             self.released.add(number)
         return
 ​
@@ -51,32 +57,4 @@ class PhoneDirectory:
         @param maxNumbers - The maximum numbers that can be stored in the phone directory.
         """
         self.numbers = set(range(maxNumbers))
-​
-    def get(self) -> int:
-        """
-        Provide a number which is not assigned to anyone.
-        @return - Return an available number. Return -1 if none is available.
-        """
-        if self.numbers:
-            return self.numbers.pop()
-        return -1
-​
-    def check(self, number: int) -> bool:
-        """
-        Check if a number is available or not.
-        """
-        return number in self.numbers
-​
-    def release(self, number: int) -> None:
-        """
-        Recycle or release a number.
-        """
-        self.numbers.add(number)
-        return
-'''
-    
-# Your PhoneDirectory object will be instantiated and called as such:
-# obj = PhoneDirectory(maxNumbers)
-# param_1 = obj.get()
-# param_2 = obj.check(number)
-# obj.release(number)
+        self.de = deque(range(maxNumbers))    #could have used a stack too
