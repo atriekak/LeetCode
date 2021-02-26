@@ -53,12 +53,3 @@ class LFUCache:
         self.freqMap[node.freq] = newList
         return
     
-class Node:
-    def __init__(self, key, value):
-        self.key, self.value = key, value
-        self.freq = 1
-        self.next, self.prev = None, None
-        
-class DLList:
-    def __init__(self):
-        self.head = Node(-1, -1)
