@@ -86,6 +86,7 @@
 |274|[ H-Index](https://leetcode.com/problems/h-index/)|[Python3](./solutions/274.%20H-Index.py)|36 ms|
 |275|[ H-Index II](https://leetcode.com/problems/h-index-ii/)|[Python3](./solutions/275.%20H-Index%20II.py)|132 ms|
 |282|[ Expression Add Operators](https://leetcode.com/problems/expression-add-operators/)|[Python3](./solutions/282.%20Expression%20Add%20Operators.py)|816 ms|
+|284|[ Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Python3](./solutions/284.%20Peeking%20Iterator.py)|28 ms|
 |289|[ Game of Life](https://leetcode.com/problems/game-of-life/)|[Python3](./solutions/289.%20Game%20of%20Life.py)|28 ms|
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Python3](./solutions/290.%20Word%20Pattern.py)|24 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Python3](./solutions/322.%20Coin%20Change.py)|2720 ms|
