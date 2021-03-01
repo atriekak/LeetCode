@@ -63,7 +63,3 @@ class Solution:
         result = [-1 for _ in range(n)]
         for i in range(n):
             for j in range(i, 2*n):
-                if nums[j%n] > nums[i]:
-                    result[i] = nums[j%n]
-                    break
-                    
