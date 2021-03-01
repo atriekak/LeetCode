@@ -105,6 +105,7 @@
 |460|[ LFU Cache](https://leetcode.com/problems/lfu-cache/)|[Python3](./solutions/460.%20LFU%20Cache.py)|284 ms|
 |490|[ The Maze](https://leetcode.com/problems/the-maze/)|[Python3](./solutions/490.%20The%20Maze.py)|264 ms|
 |498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Python3](./solutions/498.%20Diagonal%20Traverse.py)|192 ms|
+|503|[ Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Python3](./solutions/503.%20Next%20Greater%20Element%20II.py)|212 ms|
 |515|[ Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)|[Python3](./solutions/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row.py)|40 ms|
 |518|[ Coin Change 2](https://leetcode.com/problems/coin-change-2/)|[Python3](./solutions/518.%20Coin%20Change%202.py)|564 ms|
 |525|[ Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Python3](./solutions/525.%20Contiguous%20Array.py)|836 ms|
