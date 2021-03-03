@@ -1,8 +1,8 @@
 class Solution:
     def exclusiveTime(self, n: int, logs: List[str]) -> List[int]:
         #Approach: Stack
-        #Time Complexity: O(n)
-        #Space Complexity: O(n)
+        #Time Complexity: O(len(logs))
+        #Space Complexity: O(len(logs))
         
         result = [0 for _ in range(n)]
         st = []
