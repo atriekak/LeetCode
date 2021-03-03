@@ -115,7 +115,7 @@
 |542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[Python3](./solutions/542.%2001%20Matrix.py)|33 ms|
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Python3](./solutions/560.%20Subarray%20Sum%20Equals%20K.py)|244 ms|
 |561|[ Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Python3](./solutions/561.%20Array%20Partition%20I.py)|252 ms|
-|636|[ Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[Python3](./solutions/636.%20Exclusive%20Time%20of%20Functions.py)|68 ms|
+|636|[ Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)|[Python3](./solutions/636.%20Exclusive%20Time%20of%20Functions.py)|64 ms|
 |642|[ Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/)|[Python3](./solutions/642.%20Design%20Search%20Autocomplete%20System.py)|680 ms|
 |648|[ Replace Words](https://leetcode.com/problems/replace-words/)|[Python3](./solutions/648.%20Replace%20Words.py)|220 ms|
 |658|[ Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[Python3](./solutions/658.%20Find%20K%20Closest%20Elements.py)|292 ms|
