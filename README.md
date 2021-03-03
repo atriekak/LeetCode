@@ -135,3 +135,4 @@
 |997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[Python3](./solutions/997.%20Find%20the%20Town%20Judge.py)|724 ms|
 |1043|[ Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|[Python3](./solutions/1043.%20Partition%20Array%20for%20Maximum%20Sum.py)|600 ms|
 |1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Python3](./solutions/1143.%20Longest%20Common%20Subsequence.py)|396 ms|
+|1603|[ Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Python3](./solutions/1603.%20Design%20Parking%20System.py)|136 ms|
