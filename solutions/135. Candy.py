@@ -1,7 +1,7 @@
 class Solution:
     #Solution 1
     def candy(self, ratings: List[int]) -> int:
-        #Approach: Two-pass
+        #Approach: Two-pass // Greedy
         #Time Complexity: O(n)
         #Space Complexity: O(n)
         #where, n is the length of nums
@@ -20,7 +20,7 @@ class Solution:
     #Solution 2
     """
     def candy(self, ratings: List[int]) -> int:
-        #Approach: Brute force
+        #Approach: Brute force, n-passes
         #Time Complexity: O(n^2)
         #Space Complexity: O(n)
         #where, n is the length of nums
