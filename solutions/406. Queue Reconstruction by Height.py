@@ -13,5 +13,3 @@ class Solution:
             result.insert(p[1], p)
             
         return result
-            
-        
