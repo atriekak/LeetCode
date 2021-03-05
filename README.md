@@ -131,7 +131,7 @@
 |733|[ Flood Fill](https://leetcode.com/problems/flood-fill/)|[Python3](./solutions/733.%20Flood%20Fill.py)|68 ms|
 |739|[ Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)|[Python3](./solutions/739.%20Daily%20Temperatures.py)|504 ms|
 |740|[ Delete and Earn](https://leetcode.com/problems/delete-and-earn/)|[Python3](./solutions/740.%20Delete%20and%20Earn.py)|52 ms|
-|763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[Python3](./solutions/763.%20Partition%20Labels.py)|40 ms|
+|763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[Python3](./solutions/763.%20Partition%20Labels.py)|36 ms|
 |791|[ Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[Python3](./solutions/791.%20Custom%20Sort%20String.py)|28 ms|
 |931|[ Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[Python3](./solutions/931.%20Minimum%20Falling%20Path%20Sum.py)|108 ms|
 |983|[ Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|[Python3](./solutions/983.%20Minimum%20Cost%20For%20Tickets.py)|28 ms|
