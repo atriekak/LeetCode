@@ -112,6 +112,7 @@
 |402|[ Remove K Digits](https://leetcode.com/problems/remove-k-digits/)|[Python3](./solutions/402.%20Remove%20K%20Digits.py)|32 ms|
 |406|[ Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/)|[Python3](./solutions/406.%20Queue%20Reconstruction%20by%20Height.py)|84 ms|
 |409|[ Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)|[Python3](./solutions/409.%20Longest%20Palindrome.py)|32 ms|
+|413|[ Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)|[Python3](./solutions/413.%20Arithmetic%20Slices.py)|20 ms|
 |438|[ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Python3](./solutions/438.%20Find%20All%20Anagrams%20in%20a%20String.py)|96 ms|
 |448|[ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Python3](./solutions/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.py)|356 ms|
 |460|[ LFU Cache](https://leetcode.com/problems/lfu-cache/)|[Python3](./solutions/460.%20LFU%20Cache.py)|284 ms|
