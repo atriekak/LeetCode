@@ -119,6 +119,7 @@
 |518|[ Coin Change 2](https://leetcode.com/problems/coin-change-2/)|[Python3](./solutions/518.%20Coin%20Change%202.py)|564 ms|
 |525|[ Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Python3](./solutions/525.%20Contiguous%20Array.py)|836 ms|
 |526|[ Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[Python3](./solutions/526.%20Beautiful%20Arrangement.py)|1980 ms|
+|529|[ Minesweeper](https://leetcode.com/problems/minesweeper/)|[Python3](./solutions/529.%20Minesweeper.py)|164 ms|
 |532|[ K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)|[Python3](./solutions/532.%20K-diff%20Pairs%20in%20an%20Array.py)|76 ms|
 |542|[ 01 Matrix](https://leetcode.com/problems/01-matrix/)|[Python3](./solutions/542.%2001%20Matrix.py)|33 ms|
 |560|[ Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)|[Python3](./solutions/560.%20Subarray%20Sum%20Equals%20K.py)|244 ms|
