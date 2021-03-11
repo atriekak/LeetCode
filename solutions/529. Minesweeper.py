@@ -62,5 +62,3 @@ class Solution:
         
         self.dfs(board, click[0], click[1])
         return board
-    
-    def dfs(self, board, i, j):
