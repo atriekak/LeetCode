@@ -33,7 +33,7 @@ class Solution:
         
         return dp[-1][-1]
     
-    #Sollution 2
+    #Solution 2
     """
     def isMatch(self, s: str, p: str) -> bool:
         #Approach: Recursion
