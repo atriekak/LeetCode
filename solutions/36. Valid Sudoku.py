@@ -9,7 +9,7 @@ class Solution:
         
         row_map = [set() for i in range(m)]
         col_map = [set() for j in range(n)]
-        box_map = [[set() for j in range(n)] for i in range(m)]
+        box_map = [[set() for j in range(n // 3)] for i in range(m // 3)]
         
         for i in range(len(board)):
             for j in range(len(board[0])):
