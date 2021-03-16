@@ -99,6 +99,7 @@
 |284|[ Peeking Iterator](https://leetcode.com/problems/peeking-iterator/)|[Python3](./solutions/284.%20Peeking%20Iterator.py)|28 ms|
 |289|[ Game of Life](https://leetcode.com/problems/game-of-life/)|[Python3](./solutions/289.%20Game%20of%20Life.py)|28 ms|
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Python3](./solutions/290.%20Word%20Pattern.py)|24 ms|
+|300|[ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Python3](./solutions/300.%20Longest%20Increasing%20Subsequence.py)|3948 ms|
 |301|[ Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|[Python3](./solutions/301.%20Remove%20Invalid%20Parentheses.py)|156 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Python3](./solutions/322.%20Coin%20Change.py)|2720 ms|
 |341|[ Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[Python3](./solutions/341.%20Flatten%20Nested%20List%20Iterator.py)|60 ms|
