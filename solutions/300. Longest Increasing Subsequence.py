@@ -32,7 +32,7 @@ class Solution:
             else:
                 high = mid - 1
         
-        return low  # or high
+        return low
     
     #Solution 2
     """
