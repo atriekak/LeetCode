@@ -106,6 +106,7 @@
 |349|[ Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Python3](./solutions/349.%20Intersection%20of%20Two%20Arrays.py)|44 ms|
 |350|[ Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)|[Python3](./solutions/350.%20Intersection%20of%20Two%20Arrays%20II.py)|44 ms|
 |353|[ Design Snake Game](https://leetcode.com/problems/design-snake-game/)|[Python3](./solutions/353.%20Design%20Snake%20Game.py)|220 ms|
+|354|[ Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/)|[Python3](./solutions/354.%20Russian%20Doll%20Envelopes.py)|N/A|
 |355|[ Design Twitter](https://leetcode.com/problems/design-twitter/)|[Python3](./solutions/355.%20Design%20Twitter.py)|92 ms|
 |359|[ Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/)|[Python3](./solutions/359.%20Logger%20Rate%20Limiter.py)|140 ms|
 |378|[ Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)|[Python3](./solutions/378.%20Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.py)|152 ms|
