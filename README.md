@@ -101,7 +101,7 @@
 |290|[ Word Pattern](https://leetcode.com/problems/word-pattern/)|[Python3](./solutions/290.%20Word%20Pattern.py)|24 ms|
 |300|[ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Python3](./solutions/300.%20Longest%20Increasing%20Subsequence.py)|76 ms|
 |301|[ Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|[Python3](./solutions/301.%20Remove%20Invalid%20Parentheses.py)|156 ms|
-|312|[ Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[Python3](./solutions/312.%20Burst%20Balloons.py)|N/A|
+|312|[ Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[Python3](./solutions/312.%20Burst%20Balloons.py)|5872 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Python3](./solutions/322.%20Coin%20Change.py)|2720 ms|
 |341|[ Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[Python3](./solutions/341.%20Flatten%20Nested%20List%20Iterator.py)|60 ms|
 |349|[ Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)|[Python3](./solutions/349.%20Intersection%20of%20Two%20Arrays.py)|44 ms|
