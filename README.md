@@ -20,6 +20,7 @@
 |36|[ Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)|[Python3](./solutions/36.%20Valid%20Sudoku.py)|88 ms|
 |39|[ Combination Sum](https://leetcode.com/problems/combination-sum/)|[Python3](./solutions/39.%20Combination%20Sum.py)|76 ms|
 |42|[ Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Python3](./solutions/42.%20Trapping%20Rain%20Water.py)|52 ms|
+|44|[ Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)|[Python3](./solutions/44.%20Wildcard%20Matching.py)|928 ms|
 |45|[ Jump Game II](https://leetcode.com/problems/jump-game-ii/)|[Python3](./solutions/45.%20Jump%20Game%20II.py)|124 ms|
 |49|[ Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Python3](./solutions/49.%20Group%20Anagrams.py)|100 ms|
 |50|[ Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Python3](./solutions/50.%20Pow(x%2C%20n).py)|16 ms|
