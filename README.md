@@ -155,7 +155,7 @@
 |993|[ Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Python3](./solutions/993.%20Cousins%20in%20Binary%20Tree.py)|24 ms|
 |994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Python3](./solutions/994.%20Rotting%20Oranges.py)|40 ms|
 |997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[Python3](./solutions/997.%20Find%20the%20Town%20Judge.py)|724 ms|
-|1007|[ Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Python3](./solutions/1007.%20Minimum%20Domino%20Rotations%20For%20Equal%20Row.py)|1232 ms|
+|1007|[ Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Python3](./solutions/1007.%20Minimum%20Domino%20Rotations%20For%20Equal%20Row.py)|1036 ms|
 |1043|[ Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|[Python3](./solutions/1043.%20Partition%20Array%20for%20Maximum%20Sum.py)|600 ms|
 |1055|[ Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Python3](./solutions/1055.%20Shortest%20Way%20to%20Form%20String.py)|64 ms|
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Python3](./solutions/1087.%20Brace%20Expansion.py)|32 ms|
