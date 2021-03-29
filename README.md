@@ -161,7 +161,7 @@
 |1041|[ Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[Python3](./solutions/1041.%20Robot%20Bounded%20In%20Circle.py)|28 ms|
 |1043|[ Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|[Python3](./solutions/1043.%20Partition%20Array%20for%20Maximum%20Sum.py)|600 ms|
 |1055|[ Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Python3](./solutions/1055.%20Shortest%20Way%20to%20Form%20String.py)|64 ms|
-|1057|[ Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Python3](./solutions/1057.%20Campus%20Bikes.py)|1008 ms|
+|1057|[ Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Python3](./solutions/1057.%20Campus%20Bikes.py)|700 ms|
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Python3](./solutions/1087.%20Brace%20Expansion.py)|32 ms|
 |1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Python3](./solutions/1143.%20Longest%20Common%20Subsequence.py)|396 ms|
 |1192|[ Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|[Python3](./solutions/1192.%20Critical%20Connections%20in%20a%20Network.py)|2256 ms|
