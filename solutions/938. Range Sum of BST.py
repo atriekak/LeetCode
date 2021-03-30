@@ -50,3 +50,34 @@ class Solution:
                 result += root.val
                 
             if root.val < high:
+                root = root.right
+            else:
+                break
+                
+        return result
+    """
+    
+    #Solution 3
+    """
+    def rangeSumBST(self, root: TreeNode, low: int, high: int) -> int:
+        #Approach: Recursive DFS w/ pruning
+        #Time Complexity: O(n)
+        #Space Complexity: O(n)   // under the hood
+        
+        self.result = 0
+        self.dfs(root, low, high)
+        return self.result
+    
+    def dfs(self, root, low, high):
+        #base
+        if not root:
+            return
+        
+        #logic
+        if low <= root.val <= high:
+            self.result += root.val
+        if root.val > low:
+            self.dfs(root.left, low, high)
+        if root.val < high:
+            self.dfs(root.right, low, high)
+    """
