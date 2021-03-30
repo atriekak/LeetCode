@@ -94,6 +94,7 @@
 |240|[ Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Python3](./solutions/240.%20Search%20a%202D%20Matrix%20II.py)|144 ms|
 |253|[ Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[Python3](./solutions/253.%20Meeting%20Rooms%20II.py)|64 ms|
 |256|[ Paint House](https://leetcode.com/problems/paint-house/)|[Python3](./solutions/256.%20Paint%20House.py)|52 ms|
+|260|[ Single Number III](https://leetcode.com/problems/single-number-iii/)|[Python3](./solutions/260.%20Single%20Number%20III.py)|52 ms|
 |266|[ Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Python3](./solutions/266.%20Palindrome%20Permutation.py)|24 ms|
 |273|[ Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|[Python3](./solutions/273.%20Integer%20to%20English%20Words.py)|20 ms|
 |274|[ H-Index](https://leetcode.com/problems/h-index/)|[Python3](./solutions/274.%20H-Index.py)|36 ms|
