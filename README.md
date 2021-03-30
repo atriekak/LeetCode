@@ -160,7 +160,7 @@
 |1007|[ Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Python3](./solutions/1007.%20Minimum%20Domino%20Rotations%20For%20Equal%20Row.py)|1036 ms|
 |1041|[ Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[Python3](./solutions/1041.%20Robot%20Bounded%20In%20Circle.py)|28 ms|
 |1043|[ Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|[Python3](./solutions/1043.%20Partition%20Array%20for%20Maximum%20Sum.py)|600 ms|
-|1055|[ Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Python3](./solutions/1055.%20Shortest%20Way%20to%20Form%20String.py)|64 ms|
+|1055|[ Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Python3](./solutions/1055.%20Shortest%20Way%20to%20Form%20String.py)|32 ms|
 |1057|[ Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Python3](./solutions/1057.%20Campus%20Bikes.py)|700 ms|
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Python3](./solutions/1087.%20Brace%20Expansion.py)|32 ms|
 |1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Python3](./solutions/1143.%20Longest%20Common%20Subsequence.py)|396 ms|
