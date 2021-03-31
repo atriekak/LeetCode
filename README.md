@@ -109,6 +109,7 @@
 |300|[ Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Python3](./solutions/300.%20Longest%20Increasing%20Subsequence.py)|76 ms|
 |301|[ Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/)|[Python3](./solutions/301.%20Remove%20Invalid%20Parentheses.py)|156 ms|
 |312|[ Burst Balloons](https://leetcode.com/problems/burst-balloons/)|[Python3](./solutions/312.%20Burst%20Balloons.py)|5872 ms|
+|314|[ Binary Tree Vertical Order Traversal](https://leetcode.com/problems/binary-tree-vertical-order-traversal/)|[Python3](./solutions/314.%20Binary%20Tree%20Vertical%20Order%20Traversal.py)|40 ms|
 |322|[ Coin Change](https://leetcode.com/problems/coin-change/)|[Python3](./solutions/322.%20Coin%20Change.py)|2720 ms|
 |332|[ Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)|[Python3](./solutions/332.%20Reconstruct%20Itinerary.py)|88 ms|
 |341|[ Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)|[Python3](./solutions/341.%20Flatten%20Nested%20List%20Iterator.py)|60 ms|
