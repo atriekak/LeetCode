@@ -4,10 +4,13 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+​
+from collections import deque
+​
 class Solution:
     #Solution 1
     def rangeSumBST(self, root: TreeNode, low: int, high: int) -> int:
-        #Approach: Iterative DFS w/ pruning
+        #Approach: Iterative DFS w/ pruning -- pre-order
         #Time Complexity: O(n)
         #Space Complexity: O(n)
         
@@ -31,7 +34,7 @@ class Solution:
     #Solution 2
     """
     def rangeSumBST(self, root: TreeNode, low: int, high: int) -> int:
-        #Approach: Iterative DFS w/ pruning
+        #Approach: Iterative DFS w/ pruning -- in-order
         #Time Complexity: O(n)
         #Space Complexity: O(n)
         
@@ -50,34 +53,3 @@ class Solution:
                 result += root.val
                 
             if root.val < high:
-                root = root.right
-            else:
-                break
-                
-        return result
-    """
-    
-    #Solution 3
-    """
-    def rangeSumBST(self, root: TreeNode, low: int, high: int) -> int:
-        #Approach: Recursive DFS w/ pruning
-        #Time Complexity: O(n)
-        #Space Complexity: O(n)   // under the hood
-        
-        self.result = 0
-        self.dfs(root, low, high)
-        return self.result
-    
-    def dfs(self, root, low, high):
-        #base
-        if not root:
-            return
-        
-        #logic
-        if low <= root.val <= high:
-            self.result += root.val
-        if root.val > low:
-            self.dfs(root.left, low, high)
-        if root.val < high:
-            self.dfs(root.right, low, high)
-    """
