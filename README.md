@@ -7,6 +7,7 @@
 |3|[ Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Python3](./solutions/3.%20Longest%20Substring%20Without%20Repeating%20Characters.py)|56 ms|
 |4|[ Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[Python3](./solutions/4.%20Median%20of%20Two%20Sorted%20Arrays.py)|76 ms|
 |5|[ Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[Python3](./solutions/5.%20Longest%20Palindromic%20Substring.py)|936 ms|
+|8|[ String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Python3](./solutions/8.%20String%20to%20Integer%20(atoi).py)|28 ms|
 |10|[ Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)|[Python3](./solutions/10.%20Regular%20Expression%20Matching.py)|44 ms|
 |11|[ Container With Most Water](https://leetcode.com/problems/container-with-most-water/)|[Python3](./solutions/11.%20Container%20With%20Most%20Water.py)|164 ms|
 |15|[ 3Sum](https://leetcode.com/problems/3sum/)|[Python3](./solutions/15.%203Sum.py)|892 ms|
