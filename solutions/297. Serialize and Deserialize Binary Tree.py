@@ -5,8 +5,10 @@
 #         self.left = None
 #         self.right = None
 ​
+from collections import deque
+​
 class Codec:
-    #Approach: DFS
+    #Approach: BFS
     #Time Complexity: O(n)
     #Space Complexity: O(n)
     #where, n is the size of the tree
@@ -17,17 +19,23 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
-        sb = []
-        def helper(root):
-            if not root:
-                sb.append('None')
-            else:
-                sb.append(str(root.val))
-                helper(root.left)
-                helper(root.right)
+        if not root:
+            return ''
         
-        helper(root)
-        print(','.join(sb))
+        sb = []
+        de = deque([root])
+        
+        while de:
+            root = de.popleft()
+            if root:
+                sb.append(str(root.val))
+                
+                de.append(root.left)
+                de.append(root.right)
+            
+            else:
+                sb.append('None')
+                
         return ','.join(sb)
 ​
     def deserialize(self, data):
@@ -36,23 +44,12 @@ class Codec:
         :type data: str
         :rtype: TreeNode
         """
+        
+        if not data:
+            return None
+        
         data = data.split(',')
-        idx = 0
-        def helper(data):
-            nonlocal idx
-            if data[idx] == 'None':
-                idx += 1
-                return None
-            
-            root = TreeNode(data[idx])
-            idx += 1
-            root.left = helper(data)
-            root.right = helper(data)
-            return root
-            
-        return helper(data)
-​
-# Your Codec object will be instantiated and called as such:
-# ser = Codec()
-# deser = Codec()
-# ans = deser.deserialize(ser.serialize(root))
+        head = TreeNode(data[0])
+        
+        de = deque([head])
+        
