@@ -3,6 +3,7 @@ class Solution:
         #Approach: HashMap, Sorting
         #Time Complexity: O(n log k)
         #Space Complexity: O(n)
+        #where, n is the length of nums
         
         if k == len(nums):
             return nums
