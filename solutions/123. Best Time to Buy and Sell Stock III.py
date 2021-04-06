@@ -18,7 +18,7 @@ class Solution:
             profit1 = max(profit1, price - buy1)
             
             buy2 = min(buy2, price - profit1)           # effective price
-            profit2 = max(profit2, price - buy2)
+            profit2 = max(profit2, price - buy2)        # effection profit
             
         return profit2
     
