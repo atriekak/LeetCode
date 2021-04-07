@@ -1,6 +1,6 @@
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:
-        #Approach: Compare adjacent numbers
+        #Approach: Comparing adjacent words
         #Time Complexity: O(n * l)
         #Space Complexity: O(1)
         #where, n is the number of words, and l is the length of an average word
