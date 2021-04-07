@@ -1,7 +1,7 @@
 class Solution:
     #Solution 1
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
-        #Approach: Two arrays
+        #Approach: One array
         #Time Complexity: O(E)
         #Space Complexity: O(N)
         
