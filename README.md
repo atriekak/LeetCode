@@ -172,7 +172,7 @@
 |991|[ Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[Python3](./solutions/991.%20Broken%20Calculator.py)|20 ms|
 |993|[ Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Python3](./solutions/993.%20Cousins%20in%20Binary%20Tree.py)|24 ms|
 |994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Python3](./solutions/994.%20Rotting%20Oranges.py)|40 ms|
-|997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[Python3](./solutions/997.%20Find%20the%20Town%20Judge.py)|724 ms|
+|997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[Python3](./solutions/997.%20Find%20the%20Town%20Judge.py)|712 ms|
 |1007|[ Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Python3](./solutions/1007.%20Minimum%20Domino%20Rotations%20For%20Equal%20Row.py)|1036 ms|
 |1023|[ Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|[Python3](./solutions/1023.%20Camelcase%20Matching.py)|28 ms|
 |1041|[ Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[Python3](./solutions/1041.%20Robot%20Bounded%20In%20Circle.py)|28 ms|
