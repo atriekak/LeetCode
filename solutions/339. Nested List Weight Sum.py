@@ -46,7 +46,7 @@ from collections import deque
 class Solution:
     #Solution 1
     def depthSum(self, nestedList: List[NestedInteger]) -> int:
-        #Approach: Recursion / DFS
+        #Approach: Recursion // DFS
         #Time Complexity: O(n)
         #Space Complexity: O(n)
         #where, n is the total number of nested elements in the list
