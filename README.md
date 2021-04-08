@@ -172,6 +172,7 @@
 |937|[ Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|[Python3](./solutions/937.%20Reorder%20Data%20in%20Log%20Files.py)|28 ms|
 |938|[ Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Python3](./solutions/938.%20Range%20Sum%20of%20BST.py)|192 ms|
 |953|[ Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)|[Python3](./solutions/953.%20Verifying%20an%20Alien%20Dictionary.py)|28 ms|
+|979|[ Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)|[Python3](./solutions/979.%20Distribute%20Coins%20in%20Binary%20Tree.py)|32 ms|
 |983|[ Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/)|[Python3](./solutions/983.%20Minimum%20Cost%20For%20Tickets.py)|28 ms|
 |991|[ Broken Calculator](https://leetcode.com/problems/broken-calculator/)|[Python3](./solutions/991.%20Broken%20Calculator.py)|20 ms|
 |993|[ Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Python3](./solutions/993.%20Cousins%20in%20Binary%20Tree.py)|24 ms|
