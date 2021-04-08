@@ -98,6 +98,7 @@
 |236|[ Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Python3](./solutions/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree.py)|68 ms|
 |238|[ Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Python3](./solutions/238.%20Product%20of%20Array%20Except%20Self.py)|212 ms|
 |240|[ Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Python3](./solutions/240.%20Search%20a%202D%20Matrix%20II.py)|144 ms|
+|243|[ Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|[Python3](./solutions/243.%20Shortest%20Word%20Distance.py)|60 ms|
 |253|[ Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)|[Python3](./solutions/253.%20Meeting%20Rooms%20II.py)|64 ms|
 |256|[ Paint House](https://leetcode.com/problems/paint-house/)|[Python3](./solutions/256.%20Paint%20House.py)|52 ms|
 |260|[ Single Number III](https://leetcode.com/problems/single-number-iii/)|[Python3](./solutions/260.%20Single%20Number%20III.py)|52 ms|
