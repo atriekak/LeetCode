@@ -103,6 +103,7 @@
 |260|[ Single Number III](https://leetcode.com/problems/single-number-iii/)|[Python3](./solutions/260.%20Single%20Number%20III.py)|52 ms|
 |264|[ Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Python3](./solutions/264.%20Ugly%20Number%20II.py)|116 ms|
 |266|[ Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/)|[Python3](./solutions/266.%20Palindrome%20Permutation.py)|24 ms|
+|269|[ Alien Dictionary](https://leetcode.com/problems/alien-dictionary/)|[Python3](./solutions/269.%20Alien%20Dictionary.py)|28 ms|
 |273|[ Integer to English Words](https://leetcode.com/problems/integer-to-english-words/)|[Python3](./solutions/273.%20Integer%20to%20English%20Words.py)|20 ms|
 |274|[ H-Index](https://leetcode.com/problems/h-index/)|[Python3](./solutions/274.%20H-Index.py)|36 ms|
 |275|[ H-Index II](https://leetcode.com/problems/h-index-ii/)|[Python3](./solutions/275.%20H-Index%20II.py)|132 ms|
