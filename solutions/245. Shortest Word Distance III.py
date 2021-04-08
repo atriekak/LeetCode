@@ -8,7 +8,7 @@ class Solution:
         
         idx1 = -inf
         idx2 = inf
-        sameFlag = True if word1 == word2 else False
+        sameFlag = (word1 == word2)
         
         minDist = inf
         for i in range(len(wordsDict)):
