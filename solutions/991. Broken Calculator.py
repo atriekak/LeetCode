@@ -1,5 +1,6 @@
 class Solution:
     def brokenCalc(self, X: int, Y: int) -> int:
+        #Approach: Greedy; working backwards 
         #Time Complexity: log(Y - X)
         #Space Complexity: O(1)
         
