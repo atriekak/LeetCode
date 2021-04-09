@@ -3,6 +3,7 @@ class WordDistance:
     def __init__(self, wordsDict: List[str]):
         #Time Complexity: O(n)
         #Space Complexity: O(n)
+        #where, n is the number of words in wordsDict
         
         self.map = defaultdict(list)
         for i in range(len(wordsDict)):
@@ -11,6 +12,7 @@ class WordDistance:
     def shortest(self, word1: str, word2: str) -> int:
         #Time Complexity: O(n)
         #Space Complexity: O(1)
+        #where, n is the number of words in wordsDict
         
         idx1 = self.map[word1]
         idx2 = self.map[word2]
