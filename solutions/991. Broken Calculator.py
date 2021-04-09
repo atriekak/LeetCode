@@ -4,7 +4,7 @@ class Solution:
     #Solution 1
     def brokenCalc(self, X: int, Y: int) -> int:
         #Approach: Greedy; working backwards 
-        #Time Complexity: log(Y - X)
+        #Time Complexity: log(Y - X) if Y > X else O(1)
         #Space Complexity: O(1)
         
         operations = 0
@@ -19,8 +19,8 @@ class Solution:
     """
     def brokenCalc(self, X: int, Y: int) -> int:
         #Approach: BFS
-        #Time Complexity: O(2^(Y - X))
-        #Space Complexity: O(2^(Y - X))
+        #Time Complexity: O(2^(Y - X)) if Y > X else O(Y - X)
+        #Space Complexity: O(2^(Y - X)) if Y > X else O(Y - X)
         
         de = deque()
         de.append(X)
