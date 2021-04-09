@@ -57,7 +57,6 @@ class Solution:
         return self.result
     
     def helper(self, nestedList, depth):
-        #base
         for elem in nestedList:
             if elem.isInteger():
                 self.result += (elem.getInteger() * depth)
