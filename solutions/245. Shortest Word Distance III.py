@@ -12,15 +12,12 @@ class Solution:
         
         minDist = inf
         for i in range(len(wordsDict)):
-            if sameFlag and wordsDict[i] == word1:
-                minDist = min(minDist, i - idx1)
+            if wordsDict[i] == word1:
+                if sameFlag:
+                    idx2 = idx1
                 idx1 = i
-             
-            else:
-                if wordsDict[i] == word1:
-                    idx1 = i
-                elif wordsDict[i] == word2:
-                    idx2 = i
+            elif wordsDict[i] == word2:
+                idx2 = i
             minDist = min(minDist, abs(idx1 - idx2))
             
         return minDist
