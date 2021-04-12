@@ -194,4 +194,4 @@
 |1192|[ Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|[Python3](./solutions/1192.%20Critical%20Connections%20in%20a%20Network.py)|2256 ms|
 |1254|[ Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|[Python3](./solutions/1254.%20Number%20of%20Closed%20Islands.py)|132 ms|
 |1603|[ Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Python3](./solutions/1603.%20Design%20Parking%20System.py)|136 ms|
-|1641|[ Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[Python3](./solutions/1641.%20Count%20Sorted%20Vowel%20Strings.py)|28 ms|
+|1641|[ Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[Python3](./solutions/1641.%20Count%20Sorted%20Vowel%20Strings.py)|20 ms|
