@@ -184,7 +184,7 @@
 |997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[Python3](./solutions/997.%20Find%20the%20Town%20Judge.py)|712 ms|
 |1007|[ Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Python3](./solutions/1007.%20Minimum%20Domino%20Rotations%20For%20Equal%20Row.py)|1036 ms|
 |1023|[ Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|[Python3](./solutions/1023.%20Camelcase%20Matching.py)|28 ms|
-|1032|[ Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[Python3](./solutions/1032.%20Stream%20of%20Characters.py)|972 ms|
+|1032|[ Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[Python3](./solutions/1032.%20Stream%20of%20Characters.py)|988 ms|
 |1041|[ Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[Python3](./solutions/1041.%20Robot%20Bounded%20In%20Circle.py)|28 ms|
 |1043|[ Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/)|[Python3](./solutions/1043.%20Partition%20Array%20for%20Maximum%20Sum.py)|600 ms|
 |1055|[ Shortest Way to Form String](https://leetcode.com/problems/shortest-way-to-form-string/)|[Python3](./solutions/1055.%20Shortest%20Way%20to%20Form%20String.py)|32 ms|
