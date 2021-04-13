@@ -18,7 +18,7 @@ class Solution:
                 i += 1
             else:
                 popped = st.pop()
-                ar = (heights[popped] * ((i - st[-1] - 1) if st else i))
+                ar = heights[popped] * ((i - st[-1] - 1) if st else i)
                 maxAr = max(maxAr, ar)
             
         return maxAr
