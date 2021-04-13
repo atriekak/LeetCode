@@ -183,6 +183,7 @@
 |994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Python3](./solutions/994.%20Rotting%20Oranges.py)|40 ms|
 |997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[Python3](./solutions/997.%20Find%20the%20Town%20Judge.py)|712 ms|
 |1007|[ Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Python3](./solutions/1007.%20Minimum%20Domino%20Rotations%20For%20Equal%20Row.py)|1036 ms|
+|1011|[ Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|[Python3](./solutions/1011.%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.py)|548 ms|
 |1023|[ Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|[Python3](./solutions/1023.%20Camelcase%20Matching.py)|28 ms|
 |1032|[ Stream of Characters](https://leetcode.com/problems/stream-of-characters/)|[Python3](./solutions/1032.%20Stream%20of%20Characters.py)|988 ms|
 |1041|[ Robot Bounded In Circle](https://leetcode.com/problems/robot-bounded-in-circle/)|[Python3](./solutions/1041.%20Robot%20Bounded%20In%20Circle.py)|28 ms|
