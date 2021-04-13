@@ -2,7 +2,7 @@ from collections import deque
 ​
 class StreamChecker:
     #Approach: Trie (postfix tree)
-    #Time Complexity: O(n * l) for constructor initialization; O(l) for query
+    #Time Complexity: O(n * l) for constructor initialization; O(m) for query
     #Space Complexity: O(m)
     #where, n is the number of words, and l is the average length of a word
     #and, m is the length of the longest word
