@@ -41,7 +41,7 @@
 |78|[ Subsets](https://leetcode.com/problems/subsets/)|[Python3](./solutions/78.%20Subsets.py)|36 ms|
 |79|[ Word Search](https://leetcode.com/problems/word-search/)|[Python3](./solutions/79.%20Word%20Search.py)|368 ms|
 |80|[ Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Python3](./solutions/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.py)|52 ms|
-|84|[ Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Python3](./solutions/84.%20Largest%20Rectangle%20in%20Histogram.py)|812 ms|
+|84|[ Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Python3](./solutions/84.%20Largest%20Rectangle%20in%20Histogram.py)|828 ms|
 |88|[ Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)|[Python3](./solutions/88.%20Merge%20Sorted%20Array.py)|28 ms|
 |91|[ Decode Ways](https://leetcode.com/problems/decode-ways/)|[Python3](./solutions/91.%20Decode%20Ways.py)|24 ms|
 |92|[ Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Python3](./solutions/92.%20Reverse%20Linked%20List%20II.py)|28 ms|
