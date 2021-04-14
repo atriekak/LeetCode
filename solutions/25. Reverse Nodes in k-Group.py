@@ -14,12 +14,20 @@ class Solution:
             return head
         
         dummy = ListNode(-1, head)
-        left = last = dummy
-        for i in range(k):
-            last = last.next
+        left = dummy
         
         flag = True
-        while flag:
+        while True:
+            last = left
+            for i in range(k):
+                if not last.next:
+                    flag = False
+                    break
+                last = last.next
+            
+            if not flag:
+                break
+            
             first = left.next
             right = last.next
             last.next = None
@@ -28,14 +36,7 @@ class Solution:
             left.next = revList
             first.next = right
             
-            last = first
-            for i in range(k):
-                if not last.next:
-                    flag = False
-                    break
-                
-                left = left.next
-                last = last.next
+            left = first
         
         return dummy.next
         
