@@ -162,6 +162,7 @@
 |642|[ Design Search Autocomplete System](https://leetcode.com/problems/design-search-autocomplete-system/)|[Python3](./solutions/642.%20Design%20Search%20Autocomplete%20System.py)|680 ms|
 |648|[ Replace Words](https://leetcode.com/problems/replace-words/)|[Python3](./solutions/648.%20Replace%20Words.py)|220 ms|
 |658|[ Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)|[Python3](./solutions/658.%20Find%20K%20Closest%20Elements.py)|292 ms|
+|687|[ Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Python3](./solutions/687.%20Longest%20Univalue%20Path.py)|388 ms|
 |702|[ Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)|[Python3](./solutions/702.%20Search%20in%20a%20Sorted%20Array%20of%20Unknown%20Size.py)|32 ms|
 |705|[ Design HashSet](https://leetcode.com/problems/design-hashset/)|[Python3](./solutions/705.%20Design%20HashSet.py)|224 ms|
 |706|[ Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Python3](./solutions/706.%20Design%20HashMap.py)|232 ms|
