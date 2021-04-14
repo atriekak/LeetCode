@@ -47,3 +47,25 @@ class Solution:
                 idx = i
                 
         self.maxAr = max(self.maxAr, heights[idx] * (high - low + 1))
+        self.helper(heights, low, idx - 1)
+        self.helper(heights, idx + 1, high)
+    """
+    
+    #Solution 3
+    """
+    def largestRectangleArea(self, heights: List[int]) -> int:
+        #Approach: Brute Force
+        #Time Complexity: O(n^2)
+        #Space Complexity: O(1)
+        #where, n is the length of heights
+        
+        n = len(heights)
+        maxAr = 0
+        for i in range(n):
+            minHt = inf
+            for j in range(i, n):
+                minHt = min(minHt, heights[j])
+                maxAr = max(maxAr, minHt * (j - i + 1))
+                
+        return maxAr
+    """
