@@ -32,8 +32,8 @@ class Solution:
             right = last.next
             last.next = None
             
-            revList = self.reverse(first)
-            left.next = revList
+            self.reverse(first)
+            left.next = last
             first.next = right
             
             left = first
@@ -42,11 +42,8 @@ class Solution:
         
     def reverse(self, root):
         prev = None
-        
         while root:
             temp = root.next
             root.next = prev
             prev = root
             root = temp
-            
-        return prev
