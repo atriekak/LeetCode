@@ -20,11 +20,11 @@ class Solution:
             return 0
         
         #logic
-        left = self.helper(root.left) + 1
+        left = self.helper(root.left) + 1                  #make recursion call in any case
         if not root.left or root.left.val != root.val:     #no same value path on left
             left = 0
         
-        right = self.helper(root.right) + 1
+        right = self.helper(root.right) + 1                #make recursion call in any case
         if not root.right or root.right.val != root.val:   #no same value path on right
             right = 0
         
