@@ -1,4 +1,5 @@
 class Solution:
+    #Solution 1
     def longestOnes(self, nums: List[int], k: int) -> int:
         #Approach: Sliding Window (monotonically non-decreasing)
         #Time Complexity: O(n)
@@ -16,6 +17,7 @@ class Solution:
             
         return right - left + 1
     
+    #Solution 2
     """
     def longestOnes(self, nums: List[int], k: int) -> int:
         #Approach: Sliding Window
