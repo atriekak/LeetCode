@@ -185,6 +185,7 @@
 |993|[ Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Python3](./solutions/993.%20Cousins%20in%20Binary%20Tree.py)|24 ms|
 |994|[ Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)|[Python3](./solutions/994.%20Rotting%20Oranges.py)|40 ms|
 |997|[ Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)|[Python3](./solutions/997.%20Find%20the%20Town%20Judge.py)|712 ms|
+|1004|[ Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)|[Python3](./solutions/1004.%20Max%20Consecutive%20Ones%20III.py)|540 ms|
 |1007|[ Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Python3](./solutions/1007.%20Minimum%20Domino%20Rotations%20For%20Equal%20Row.py)|1036 ms|
 |1011|[ Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)|[Python3](./solutions/1011.%20Capacity%20To%20Ship%20Packages%20Within%20D%20Days.py)|548 ms|
 |1023|[ Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)|[Python3](./solutions/1023.%20Camelcase%20Matching.py)|28 ms|
