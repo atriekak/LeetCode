@@ -24,8 +24,8 @@ class Solution:
         
         return ''.join(sb)
     
+    #Solution 2 -- k+ duplicate removal
     """
-    #Solution 2 -- k+ duplicate removal
     def removeDuplicates(self, s: str, k: int) -> str:
         #Approach: Stack
         #Time Complexity: O(n)
