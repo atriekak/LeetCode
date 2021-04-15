@@ -174,6 +174,7 @@
 |791|[ Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[Python3](./solutions/791.%20Custom%20Sort%20String.py)|28 ms|
 |887|[ Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|[Python3](./solutions/887.%20Super%20Egg%20Drop.py)|296 ms|
 |909|[ Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|[Python3](./solutions/909.%20Snakes%20and%20Ladders.py)|144 ms|
+|911|[ Online Election](https://leetcode.com/problems/online-election/)|[Python3](./solutions/911.%20Online%20Election.py)|5228 ms|
 |924|[ Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/)|[Python3](./solutions/924.%20Minimize%20Malware%20Spread.py)|1588 ms|
 |931|[ Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/)|[Python3](./solutions/931.%20Minimum%20Falling%20Path%20Sum.py)|108 ms|
 |937|[ Reorder Data in Log Files](https://leetcode.com/problems/reorder-data-in-log-files/)|[Python3](./solutions/937.%20Reorder%20Data%20in%20Log%20Files.py)|28 ms|
