@@ -145,6 +145,7 @@
 |438|[ Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[Python3](./solutions/438.%20Find%20All%20Anagrams%20in%20a%20String.py)|96 ms|
 |448|[ Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Python3](./solutions/448.%20Find%20All%20Numbers%20Disappeared%20in%20an%20Array.py)|356 ms|
 |460|[ LFU Cache](https://leetcode.com/problems/lfu-cache/)|[Python3](./solutions/460.%20LFU%20Cache.py)|284 ms|
+|473|[ Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/)|[Python3](./solutions/473.%20Matchsticks%20to%20Square.py)|2172 ms|
 |490|[ The Maze](https://leetcode.com/problems/the-maze/)|[Python3](./solutions/490.%20The%20Maze.py)|264 ms|
 |498|[ Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/)|[Python3](./solutions/498.%20Diagonal%20Traverse.py)|192 ms|
 |503|[ Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)|[Python3](./solutions/503.%20Next%20Greater%20Element%20II.py)|212 ms|
