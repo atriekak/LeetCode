@@ -55,8 +55,6 @@ class Solution:
         
         while N:
             rem = N % 10
-            if rem not in self.rotMap:
-                return False
             newN = newN * 10 + self.rotMap[rem]
             
             N = N // 10
