@@ -200,6 +200,7 @@
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Python3](./solutions/1087.%20Brace%20Expansion.py)|32 ms|
 |1088|[ Confusing Number II](https://leetcode.com/problems/confusing-number-ii/)|[Python3](./solutions/1088.%20Confusing%20Number%20II.py)|1464 ms|
 |1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Python3](./solutions/1143.%20Longest%20Common%20Subsequence.py)|396 ms|
+|1168|[ Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village/)|[Python3](./solutions/1168.%20Optimize%20Water%20Distribution%20in%20a%20Village.py)|468 ms|
 |1192|[ Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|[Python3](./solutions/1192.%20Critical%20Connections%20in%20a%20Network.py)|2256 ms|
 |1209|[ Remove All Adjacent Duplicates in String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/)|[Python3](./solutions/1209.%20Remove%20All%20Adjacent%20Duplicates%20in%20String%20II.py)|68 ms|
 |1254|[ Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)|[Python3](./solutions/1254.%20Number%20of%20Closed%20Islands.py)|132 ms|
