@@ -64,4 +64,3 @@ class Solution:
         self.edges.sort(key = lambda x : x[2])
         
         #Kruskal's/MST using Union-Find
-        self.makeSet(n + 1)
