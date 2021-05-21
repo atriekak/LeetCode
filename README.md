@@ -212,3 +212,4 @@
 |1593|[ Split a String Into the Max Number of Unique Substrings](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)|[Python3](./solutions/1593.%20Split%20a%20String%20Into%20the%20Max%20Number%20of%20Unique%20Substrings.py)|324 ms|
 |1603|[ Design Parking System](https://leetcode.com/problems/design-parking-system/)|[Python3](./solutions/1603.%20Design%20Parking%20System.py)|136 ms|
 |1641|[ Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/)|[Python3](./solutions/1641.%20Count%20Sorted%20Vowel%20Strings.py)|20 ms|
+|1695|[ Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/)|[Python3](./solutions/1695.%20Maximum%20Erasure%20Value.py)|1276 ms|
