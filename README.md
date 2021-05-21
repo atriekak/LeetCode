@@ -201,6 +201,7 @@
 |1057|[ Campus Bikes](https://leetcode.com/problems/campus-bikes/)|[Python3](./solutions/1057.%20Campus%20Bikes.py)|700 ms|
 |1087|[ Brace Expansion](https://leetcode.com/problems/brace-expansion/)|[Python3](./solutions/1087.%20Brace%20Expansion.py)|32 ms|
 |1088|[ Confusing Number II](https://leetcode.com/problems/confusing-number-ii/)|[Python3](./solutions/1088.%20Confusing%20Number%20II.py)|1464 ms|
+|1091|[ Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)|[Python3](./solutions/1091.%20Shortest%20Path%20in%20Binary%20Matrix.py)|620 ms|
 |1143|[ Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Python3](./solutions/1143.%20Longest%20Common%20Subsequence.py)|396 ms|
 |1168|[ Optimize Water Distribution in a Village](https://leetcode.com/problems/optimize-water-distribution-in-a-village/)|[Python3](./solutions/1168.%20Optimize%20Water%20Distribution%20in%20a%20Village.py)|468 ms|
 |1192|[ Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)|[Python3](./solutions/1192.%20Critical%20Connections%20in%20a%20Network.py)|2256 ms|
