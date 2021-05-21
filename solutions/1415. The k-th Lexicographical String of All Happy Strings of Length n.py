@@ -47,10 +47,3 @@ class Solution:
             self.strings.append(''.join(sb))
             return
         
-        #logic
-        for char in self.chars:
-            if not sb or sb[-1] != char:
-                sb.append(char)                 #action
-                self.backtrack(n, k, sb)        #recursion
-                sb.pop()                        #backtrack
-    """
