@@ -176,6 +176,7 @@
 |763|[ Partition Labels](https://leetcode.com/problems/partition-labels/)|[Python3](./solutions/763.%20Partition%20Labels.py)|36 ms|
 |791|[ Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[Python3](./solutions/791.%20Custom%20Sort%20String.py)|28 ms|
 |887|[ Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)|[Python3](./solutions/887.%20Super%20Egg%20Drop.py)|296 ms|
+|904|[ Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Python3](./solutions/904.%20Fruit%20Into%20Baskets.py)|728 ms|
 |909|[ Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)|[Python3](./solutions/909.%20Snakes%20and%20Ladders.py)|144 ms|
 |911|[ Online Election](https://leetcode.com/problems/online-election/)|[Python3](./solutions/911.%20Online%20Election.py)|5228 ms|
 |924|[ Minimize Malware Spread](https://leetcode.com/problems/minimize-malware-spread/)|[Python3](./solutions/924.%20Minimize%20Malware%20Spread.py)|1588 ms|
