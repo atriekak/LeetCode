@@ -5,7 +5,7 @@ class Solution:
     def jump(self, nums: List[int]) -> bool:
         #Approach: Greedy
         #Time Complexity: O(n)
-        #Space Complexity: O(n)
+        #Space Complexity: O(1)
         #where, n is the length of nums
         
         if len(nums) <= 1:
